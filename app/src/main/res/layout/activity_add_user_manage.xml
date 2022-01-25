@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/barColor"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle">
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:fontFamily="@string/opensansregular" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txtNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Prefix:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:padding="5dp">
+
+                        <EditText
+                            android:id="@+id/et_user_prefix"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="Mr/Mrs/Miss"
+                            android:inputType="text"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="First Name:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/et_bg">
+
+                        <EditText
+                            android:id="@+id/et_user_first_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="First Name"
+                            android:inputType="text"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Last Name:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/et_bg">
+
+                        <EditText
+                            android:id="@+id/et_user_last_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="Last Name"
+                            android:inputType="text"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txtmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Email:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/et_bg">
+
+                        <EditText
+                            android:id="@+id/et_user_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="User Type:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/et_bg">
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="25dp"-->
+<!--                            android:layout_height="25dp"-->
+<!--                            android:layout_alignParentLeft="true"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="5dp"-->
+<!--                            android:src="@mipmap/dollar_note" />-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:background="@color/black" />-->
+
+                        <Spinner
+                            android:id="@+id/dropDown_UserType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:dropDownVerticalOffset="40dp"
+                            android:spinnerMode="dropdown"/>
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:padding="10dp"
+                        android:text="Role:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/et_bg">
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="25dp"-->
+<!--                            android:layout_height="25dp"-->
+<!--                            android:layout_alignParentLeft="true"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="5dp"-->
+<!--                            android:src="@mipmap/dollar_note" />-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:background="@color/black" />-->
+
+                        <Spinner
+                            android:id="@+id/dropDown_Role"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:dropDownVerticalOffset="40dp"
+                            android:spinnerMode="dropdown"/>
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Assign Services:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/et_bg">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:id="@+id/lay_customer"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <com.pos.salon.customview.DelayAutoCompleteTextView
+                                    android:id="@+id/et_service"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Search Service"
+                                    android:inputType="textCapSentences"
+                                    android:singleLine="true"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp" />
+
+
+                            </RelativeLayout>
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recycler_Service"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/lay_customer" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lay_UserName"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Username:"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/layout_text_size"
+                            android:textStyle="bold"
+                            android:padding="10dp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/et_bg">
+
+                            <!--                        <ImageView-->
+                            <!--                            android:layout_width="25dp"-->
+                            <!--                            android:layout_height="25dp"-->
+                            <!--                            android:layout_alignParentLeft="true"-->
+                            <!--                            android:layout_gravity="center_vertical"-->
+                            <!--                            android:layout_marginLeft="10dp"-->
+                            <!--                            android:scaleType="centerCrop"-->
+                            <!--                            android:layout_marginRight="5dp"-->
+                            <!--                            android:src="@mipmap/business_name" />-->
+
+                            <!--                        <View-->
+                            <!--                            android:layout_width="0.5dp"-->
+                            <!--                            android:layout_height="match_parent"-->
+                            <!--                            android:layout_marginLeft="5dp"-->
+                            <!--                            android:background="@color/black" />-->
+
+                            <EditText
+                                android:id="@+id/et_user_Username"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:hint="Username"
+                                android:inputType="text"
+                                android:padding="5dp"
+                                android:singleLine="true"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txtPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Password:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:padding="5dp"
+                        android:background="@drawable/et_bg">
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="25dp"-->
+<!--                            android:layout_height="25dp"-->
+<!--                            android:layout_alignParentLeft="true"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="5dp"-->
+<!--                            android:src="@mipmap/smartphone" />-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:background="@color/black" />-->
+
+                        <EditText
+                            android:id="@+id/et_user_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="Password"
+                            android:layout_marginLeft="5dp"
+                            android:inputType="textPassword"
+                            android:padding="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txtConfirmPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Confirm Password:*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/layout_text_size"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:padding="5dp"
+                        android:background="@drawable/et_bg">
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="25dp"-->
+<!--                            android:layout_height="25dp"-->
+<!--                            android:layout_alignParentLeft="true"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="5dp"-->
+<!--                            android:src="@mipmap/dollar_note" />-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:background="@color/black" />-->
+
+                        <EditText
+                            android:id="@+id/et_user_confirmPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="Confirm Password"
+                            android:layout_marginLeft="5dp"
+                            android:inputType="textPassword"
+                            android:padding="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/ch_isActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:button="@drawable/check_box_background"
+                        android:padding="5dp"
+                        android:text="Is active ?"
+                        android:checked="false"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txt_save_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/btnColor"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="SAVE"
+                android:textColor="@color/white"
+                android:textSize="@dimen/btn_text_size"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/rlTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:id="@+id/txt_variations"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/payBtn"
+                        android:textSize="15sp"
+                        android:text="sdf"
+                        android:visibility="visible"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <ImageView
+                        android:id="@+id/imgDelete"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/cross" />
+
+                    <ImageView
+                        android:id="@+id/img_copy_value"
+                        android:layout_width="25dp"
+                        android:src="@mipmap/check_copy"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/imgDelete"
+                        android:visibility="visible"
+                        android:layout_centerVertical="true"
+                        android:layout_height="25dp"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlTop"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <com.pos.salon.customview.CustomTextViewOpenSans
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="SKU :"
+                                    android:textColor="@color/menuTxtColor"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"
+                                    android:visibility="visible"
+                                    app:fontFamily="@string/opensansregular" />
+
+                                <EditText
+                                    android:id="@+id/et_variation_sku"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/et_bg"
+                                    android:inputType="numberDecimal"
+                                    android:hint="SKU"
+                                    android:padding="8dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <com.pos.salon.customview.CustomTextViewOpenSans
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Value :"
+                                    android:textColor="@color/menuTxtColor"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"
+                                    android:visibility="visible"
+                                    app:fontFamily="@string/opensansregular" />
+
+                                <EditText
+                                    android:id="@+id/et_value"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/black"
+                                    android:background="@drawable/et_bg"
+                                    android:hint="value"
+                                    android:padding="8dp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/lay_product_single"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <com.pos.salon.customview.CustomTextViewOpenSans
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Default Purchase Price :"
+                                    android:textColor="@color/menuTxtColor"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"
+                                    android:visibility="visible"
+                                    app:fontFamily="@string/opensansregular" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/square_layout_stroke_bg"
+                                    android:weightSum="10">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="5"
+                                        android:orientation="vertical">
+
+                                        <com.pos.salon.customview.CustomTextViewOpenSans
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:text="Exc Tax:*"
+                                            android:textColor="@color/menuTxtColor"
+                                            android:textSize="@dimen/layout_text_size"
+                                            android:textStyle="bold"
+                                            app:fontFamily="@string/opensansregular" />
+
+                                        <EditText
+                                            android:id="@+id/et_purchase_exc"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:background="@drawable/et_bg"
+                                            android:imeOptions="actionDone"
+                                            android:inputType="numberDecimal"
+                                            android:hint="0.00"
+                                            android:padding="8dp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="5"
+                                        android:orientation="vertical">
+
+                                        <com.pos.salon.customview.CustomTextViewOpenSans
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="10dp"
+                                            android:text="Inc. Tax:*"
+                                            android:textColor="@color/menuTxtColor"
+                                            android:textSize="@dimen/layout_text_size"
+                                            android:textStyle="bold"
+                                            app:fontFamily="@string/opensansregular" />
+
+                                        <EditText
+                                            android:id="@+id/et_purchase_inc"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:background="@drawable/et_bg"
+                                            android:imeOptions="actionDone"
+                                            android:inputType="numberDecimal"
+                                            android:hint="0.00"
+                                            android:padding="8dp" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:weightSum="2">
+
+
+                                <com.pos.salon.customview.CustomTextViewOpenSans
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="x Margin(%) :"
+                                    android:textColor="@color/menuTxtColor"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"
+                                    android:visibility="visible"
+                                    app:fontFamily="@string/opensansregular" />
+
+                                <com.pos.salon.customview.CustomTextViewOpenSans
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="DSP (Exc. Tax) :"
+                                    android:textColor="@color/menuTxtColor"
+                                    android:textSize="@dimen/layout_text_size"
+                                    android:textStyle="bold"
+                                    app:fontFamily="@string/opensansregular" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:weightSum="2">
+
+
+                                <EditText
+                                    android:id="@+id/et_margin"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/et_bg"
+                                    android:imeOptions="actionDone"
+                                    android:inputType="numberDecimal"
+                                    android:padding="8dp"
+                                    android:hint="0.00"
+                                    android:text="" />
+
+
+                                <EditText
+                                    android:id="@+id/et_selling_exc"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/et_bg"
+                                    android:textColor="@color/menuTxtColor"
+                                    android:inputType="numberDecimal"
+                                    android:hint="0.00"
+                                    android:padding="8dp" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

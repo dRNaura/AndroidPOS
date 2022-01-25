@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/return_invoice_edit"
+        android:icon="@drawable/edit_pop"
+        android:title="Edit" />
+
+    <item
+    android:id="@+id/return_invoice_delete"
+    android:icon="@drawable/delete_icon"
+    android:title="Cancel Return"/>
+
+    <item
+        android:id="@+id/return_invoice_Print"
+        android:icon="@drawable/printicon"
+        android:title="Print"/>
+</menu>

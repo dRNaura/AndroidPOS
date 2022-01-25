@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">SPG</string>
+    <string name="signin">Member Sign In</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="menuAddCustomer">Add Customer</string>
+    <string name="menuListCustomer">List Customer</string>
+    <string name="posSale">POS Sale</string>
+    <string name="returnSale">Return Sale</string>
+    <string name="listPos">List POS</string>
+    <string name="findPOs">Find Invoice</string>
+    <string name="listDraft">List Drafts</string>
+    <string name="quotations">Quotations</string>
+    <string name="repairs">Repairs</string>
+    <string name="delivery_order">Delivery Order</string>
+    <string name="logout">Log Out</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="posterminal">POS TERMINAL</string>
+    <string name="repairSales">REPAIR SALES</string>
+    <string name="registerDetail">REGISTER DETAIL</string>
+    <string name="todayProfit">PROFIT TODAY</string>
+    <string name="searchHint">Enter product name/SKU/Brand/Scan barcode</string>
+    <string name="searchCustomerHint">Search Customer</string>
+    <string name="searctAlert">Your search product is</string>
+    <string name="searchAlert2">Not available !!!</string>
+    <string name="totalPayable">Total Payable:</string>
+    <string name="weAccept">We Accept</string>
+    <string name="creditcard">Credit Card</string>
+    <string name="debitcard">Debit Card</string>
+    <string name="cashPay">Cash Pay</string>
+    <string name="remenberme">Remember Me</string>
+    <string name="payNow">Pay Now</string>
+    <string name="thankYou">Thank You.</string>
+    <string name="successfully">Successfully</string>
+    <string name="discountAmount">Discount Amount</string>
+    <string name="none">None</string>
+    <string name="shippingDetail">Shipping Detail</string>
+    <string name="shippingCharges">Shipping Charges</string>
+    <string name="priceintax">Price in tax</string>
+    <string name="description">Description</string>
+    <string name="opensansregular">fonts/opensansregular.ttf</string>
+    <string name="sorry">Sorry !!!</string>
+    <string name="paymentReject">Your payment is rejected by gateway.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="location_array">
+        <item>Select Location</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>Select Currency</item>
+        <item>INR</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="customer_array">
+        <item>Select Cash Customer</item>
+        <item>Customer 1</item>
+        <item>Customer 1</item>
+    </string-array>
+
+    <string-array name="staff_array">
+        <item>Select service Staff</item>
+        <item>Customer 1</item>
+        <item>Customer 1</item>
+    </string-array>
+
+    <string-array name="print_array">
+        <item>Select</item>
+        <item>Print</item>
+        <item>Print Merchant Receipt</item>
+        <item>Customer CC Receipt</item>
+        <item>Email Copy</item>
+    </string-array>
+
+    <string-array name="print_array_cash">
+        <item>Select</item>
+        <item>Print</item>
+        <item>Email Copy</item>
+        <!--        <item>Cash Receipt</item>-->
+    </string-array>
+
+    <string-array name="discount_array">
+        <item>Select Discount Type</item>
+        <item>Fixed</item>
+        <item>Percentage</item>
+    </string-array>
+
+    <string-array name="tax_array">
+        <item>Tax</item>
+        <item>Sale Tax</item>
+        <item>GST</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="pos_sales_slip">POS SALES SLIP</string>
+    <string name="merchant_name">MERCHANGT NAME:</string>
+    <string name="merchant_no">MERCHANT NO:</string>
+    <string name="terminal_name">TERMINAL NAME:</string>]
+    <string name="operator_no">OPERATOR NO:</string>
+    <string name="card_no">CARD NO:</string>
+    <string name="acq_institute">ACQ INSTITUTE:</string>
+    <string name="iss">ISS:</string>
+    <string name="trans_type">TRANS TYPE:</string>
+    <string name="sale">SALE:</string>
+    <string name="exe_date">EXE DATE:</string>
+    <string name="batch_no">BATCH NO:</string>
+    <string name="voucher_no">VOUCHER NO:</string>
+    <string name="date">DATE:</string>
+    <string name="time">TIME:</string>
+    <string name="amount">AMOUNT:</string>
+    <string name="reference">REFERENCE:</string>
+    <string name="cardholder_signature">CARDHOLDER SIGNATURE:</string>
+    <string name="print_remark">I ACRNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERUICE </string>
+    <string name="cardholder_copy">CARDHOLDER COPY:</string>
+
+
+    <string name="printer_out_of_paper">printer out of paper</string>
+    <string name="show_qrcode_status1">Display two dimensional code (width: 200, length: 200, left)</string>
+    <string name="show_qrcode_status2">Display two dimensional code (width: 200, length: 200, right)</string>
+    <string name="show_qrcode_status3">Display two dimensional code (width: 200, length: 200, center)</string>
+
+    <string name="show_barcode_status1">The bar code that displays EAN_13 encoding format (width: 360, length: 100, left)</string>
+    <string name="show_barcode_status2">The bar code that displays EAN_13 encoding format (width: 300, length: 80, center)</string>
+    <string name="show_barcode_status3">The bar code that displays EAN_13 encoding format (width: 300, length: 100, right)</string>
+
+    <string name="SDK_OK">OK</string>
+    <string name="SDK_ERROR">Error</string>
+    <string name="SDK_PARAMERR">Params error</string>
+    <string name="SDK_TIMEOUT">Timeout</string>
+    <string name="SDK_RECV_DATA_ERROR">Recv data error</string>
+    <string name="SDK_ICC_BASE_ERR">Icc base error</string>
+    <string name="SDK_ICC_ERROR">Icc error</string>
+    <string name="SDK_ICC_PARAM_ERROR">Icc param error</string>
+    <string name="SDK_ICC_NO_CARD">Icc no card</string>
+    <string name="SDK_ICC_NO_RESP">Icc no resp</string>
+    <string name="SDK_ICC_COMM_ERR">Icc communicate error</string>
+    <string name="SDK_ICC_RESP_ERR">Icc resp error</string>
+    <string name="SDK_ICC_NO_POWER_ON">Icc no power on</string>
+    <string name="SDK_RF_BASE_ERR">Rf base error</string>
+    <string name="SDK_RF_ERROR">Rf error</string>
+    <string name="SDK_RF_PARAM_ERROR">Rf param error</string>
+    <string name="SDK_RF_ERR_NOCARD">Rf no card</string>
+    <string name="SDK_RF_ERR_CARD_CONFLICT">Rf card conflict</string>
+    <string name="SDK_RF_TIME_OUT">Rf time out</string>
+    <string name="SDK_RF_PROTOCOL_ERROR">Rf error protocol</string>
+    <string name="SDK_RF_TRANSMISSION_ERROR">Rf transmission error</string>
+    <string name="SDK_MAG_BASE_ERR">Mag base error</string>
+    <string name="SDK_MAG_ERROR">Sdk mag error</string>
+    <string name="SDK_MAG_PARAM_ERROR">Mag param error</string>
+    <string name="SDK_MAG_NO_BRUSH">Mag no brush</string>
+    <string name="SDK_PRN_BASE_ERR">Print base error</string>
+    <string name="SDK_PRN_ERROR">Print error</string>
+    <string name="SDK_PRN_PARAM_ERROR">Print params error</string>
+    <string name="SDK_PRN_STATUS_PAPEROUT">Print status paper out</string>
+    <string name="SDK_PRN_STATUS_TOOHEAT">Print status too heat</string>
+    <string name="SDK_PRN_STATUS_FAULT">Print status fault</string>
+    <string name="SDK_PAD_BASE_ERR">Pad base error</string>
+    <string name="SDK_PAD_ERR_NOPIN">Pad error no pin</string>
+    <string name="SDK_PAD_ERR_CANCEL">Pad error cancel</string>
+    <string name="SDK_PAD_ERR_EXCEPTION">pad work exception</string>
+    <string name="SDK_PAD_ERR_TIMEOUT">Pad error timeout</string>
+    <string name="SDK_PAD_ERR_NEED_WAIT">Pad error need wait</string>
+    <string name="SDK_PAD_ERR_DUPLI_KEY">Pad error dupli key</string>
+    <string name="SDK_PAD_ERR_INVALID_INDEX">Pad err invalid index</string>
+    <string name="SDK_PAD_ERR_NOTSET_KEY">Pad err no test key</string>
+    <string name="SDK_UNKNOWN_ERROR">Unknown error</string>
+
+
+    <!--dialog-->
+    <string name="title_error">Error</string>
+    <string name="title_card">Card Info</string>
+    <string name="title_apdu">APDU</string>
+
+    <!--progress dialog-->
+    <string name="title_waiting">Waiting</string>
+    <string name="msg_reading">Is reading card</string>
+    <string name="msg_psam1_reading">Is reading psam1 card</string>
+    <string name="msg_psam2_reading">Is reading psam2 card</string>
+    <string name="msg_init">Initializing</string>
+    <string name="title_bank_card">Bank card</string>
+    <string name="title_mag_card">Magnetic card</string>
+    <string name="title_ic_card">IC card</string>
+    <string name="title_rf_card">QuickPass card</string>
+    <string name="msg_bank_card">Please use your bank card</string>
+    <string name="msg_mag_card">Please swipe card</string>
+    <string name="msg_ic_card">Please insert IC card</string>
+    <string name="msg_rf_card">Please swing card</string>
+    <string name="msg_m1_card">Please swing m1 card</string>
+    <string name="msg_mf_puls_card">Please swing mf puls card</string>
+    <!--sdk sdkult-->
+    <string name="scan_hint">Scanning electron devices, please send electron devices screen brightness to the brightest</string>
+    <string name="idcard_count">Count:</string>
+    <string name="idcard_count_success">Success:</string>
+    <string name="idcard_count_failed">Failed:</string>
+    <string name="string_null"></string>
+    <string name="scan_init_failure_info">Scanner init failured , Please Retry!</string>
+</resources>

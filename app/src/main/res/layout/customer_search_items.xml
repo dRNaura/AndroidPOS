@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSpinner"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location" />
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_toRightOf="@+id/imgSpinner"
+            android:id="@+id/txtSpinnerText"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            app:fontFamily="@string/opensansregular"
+            android:textColor="@color/menuTxtColor"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/menuTxtColor"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/menuTxtColor"
+            android:text="" />
+
+    </LinearLayout>
+</LinearLayout>

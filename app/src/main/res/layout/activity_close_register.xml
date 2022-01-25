@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dropDownParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_close_register"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/barColor"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle">
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Register Detail"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:fontFamily="@string/opensansregular" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Register Details : "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:fontFamily="@string/opensansregular" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Cash In Hand"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:id="@+id/txt_cash_inHand"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent"
+                            android:text="$ 0.00"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Cash Payment"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_cash_Payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="$ 0.00"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Cheque Payment"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_cheque_Payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Card Payment"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_card_Payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Bank Transfer"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_bank_transfer"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Reward Payment"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_reward_payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Store Credit Payment"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_store_credit_payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Custom Payment 1"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_custom_payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Other Payments"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_other_payment"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Total Sales"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_total_sales"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Total Refund"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_total_refund"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:weightSum="10">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="9.7"
+                            android:gravity="center_vertical"
+                            android:text="Total Cash"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_total_cash"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="$ 0.00"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_total"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:text="Total Cash:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                app:fontFamily="@string/opensansregular" />
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text=""-->
+<!--                    android:paddingLeft="3dp"-->
+<!--                    android:paddingRight="5dp"-->
+<!--                    android:paddingTop="1dp"-->
+<!--                    android:paddingBottom="1dp"-->
+<!--                    android:id="@+id/txt_closing_amount"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:layout_marginRight="20dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    app:fontFamily="@string/opensansregular" />-->
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_total_cash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_bg"
+                android:hint="Enter Amount"
+                android:gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="10dp"
+                android:maxLength="10"
+                android:inputType="number"
+                android:digits="1234567890."
+                android:textColor="@color/menuTxtColor"
+                android:textSize="16sp" />
+
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Closing Notes:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                app:fontFamily="@string/opensansregular" />
+
+            <EditText
+                android:id="@+id/et_closing_notes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/et_bg"
+                android:hint="Closing Notes"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:padding="10dp"
+                android:maxLength="160"
+                android:textColor="@color/menuTxtColor"
+                android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/lay_close_register"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin_top_spinner"
+            android:background="@color/colorBlue"
+            android:padding="@dimen/layout_padding">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:id="@+id/txtNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Close Register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/btn_text_size"
+                    app:fontFamily="@string/opensansregular" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_print_register"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/btnColor"
+            android:padding="@dimen/layout_padding">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Print Register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/btn_text_size"
+                    app:fontFamily="@string/opensansregular" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

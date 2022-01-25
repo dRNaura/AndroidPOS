@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_pos_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/barColor" />
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/square_layout_stroke_bg"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:id="@+id/txt_filters"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Filters"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:fontFamily="@string/opensansregular" />
+
+
+                    <ImageView
+                        android:id="@+id/close_filter"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="2dp"
+                        android:padding="2dp"
+                        android:src="@drawable/close"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/open_filter"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="2dp"
+                        android:padding="2dp"
+                        android:src="@drawable/filter" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_filters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="@dimen/layout_margin_top_spinner"
+                        android:background="@drawable/et_bg"
+                        android:padding="8dp">
+
+                        <Spinner
+                            android:id="@+id/dropdown_paymentStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:dropDownVerticalOffset="40dp"
+                            android:spinnerMode="dropdown">
+
+                        </Spinner>
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_date_range"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txt_date_range"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Select Date Range"
+                            android:padding="5dp"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:id="@+id/cal_date_range"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:padding="5dp"
+                            android:src="@drawable/calendar" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="5dp">
+
+                        <com.pos.salon.customview.DelayAutoCompleteTextView
+                            android:id="@+id/et_customer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="Customer Name"
+                            android:inputType="textCapSentences"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:padding="5dp"
+                            android:src="@drawable/name" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="@dimen/layout_margin_top_spinner"
+                        android:background="@drawable/et_bg"
+                        android:padding="8dp">
+
+                        <Spinner
+                            android:id="@+id/dropdownSaleFrom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:dropDownVerticalOffset="40dp"
+                            android:spinnerMode="dropdown">
+
+                        </Spinner>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/rl_select_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="@dimen/layout_margin_top_spinner"
+                        android:background="@drawable/et_bg">
+
+                        <Spinner
+                            android:id="@+id/dropdownLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="5dp"
+                            android:spinnerMode="dropdown"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/linear_apply_changes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/barColor"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Apply Changes"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="Search:"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_scan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:elevation="10dp"
+                        app:cardCornerRadius="10dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/rl_find_return"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/btnColor">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txtNext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="8dp"
+                                android:paddingRight="20dp"
+                                android:paddingBottom="8dp"
+                                android:text="FIND SALE"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                app:fontFamily="@string/opensansregular" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_search">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listposRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/progressBar"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp" />
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_no_resut"
+                android:layout_width="wrap_content"
+                android:text="No Result Found"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"/>
+
+
+
+            <!--    <ProgressBar-->
+            <!--        android:id="@+id/progressBar"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_gravity="center"-->
+            <!--        android:visibility="visible"-->
+            <!--        android:layout_height="wrap_content"/>-->
+
+            <!--    <com.github.ybq.android.spinkit.SpinKitView-->
+            <!--        android:id="@+id/progressBar"-->
+            <!--        style="@style/SpinKitView.Large.ThreeBounce"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_alignParentBottom="true"-->
+            <!--        android:layout_centerHorizontal="true"-->
+            <!--        android:visibility="gone"-->
+            <!--        app:SpinKit_Color="@color/colorAccent" />-->
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

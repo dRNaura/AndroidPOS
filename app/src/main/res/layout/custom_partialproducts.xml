@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rlTop1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgProduct1"
+            android:layout_width="200dp"
+            android:visibility="gone"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mobile_tab"/>
+
+        <ImageView
+            android:id="@+id/imgDelete1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/cross"/>
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txtProductName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgProduct1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/menuTxtColor"
+            app:fontFamily="@string/opensansregular"
+            android:text="10 sam tab a tablet1434735565 Samsung"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/rlTop1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/menuTxtColor"
+                    android:textSize="16sp"
+                    app:fontFamily="@string/opensansregular"
+                    android:text="Price:"/>
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:id="@+id/txtProductPrice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="KYD 450"
+                    android:textColor="@color/btnColor"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@string/opensansregular" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:paddingRight="3dp"
+                android:background="@color/btnColor"
+                android:layout_weight="1">
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:id="@+id/txtProductSubtoralPrice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="KYD 450"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@string/opensansregular" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/llPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/minusButton1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/menuTxtColor"
+                android:text="-"/>
+            <TextView
+                android:id="@+id/editQuantity1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:textColor="@color/menuTxtColor"
+                android:background="@drawable/square_layout_stroke_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="1"/>
+            <Button
+                android:id="@+id/addButton1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:textSize="20sp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/menuTxtColor"
+                android:text="+"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:descendantFocusability="beforeDescendants"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/spnDiscountType1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/paddingEdt"
+                android:inputType="number"
+                android:textColor="@color/menuTxtColor"
+                android:background="@drawable/square_layout_stroke_bg"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:descendantFocusability="beforeDescendants"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edtDiscountAmt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/paddingEdt"
+                android:inputType="number"
+                android:hint="@string/discountAmount"
+                android:textColor="@color/menuTxtColor"
+                android:background="@drawable/square_layout_stroke_bg"/>
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spnTax1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:background="@drawable/spinner_stroke_bg"/>
+
+        <EditText
+            android:id="@+id/edtTaxCalculation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="@dimen/paddingEdt"
+            android:hint="@string/priceintax"
+            android:textColor="@color/menuTxtColor"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:background="@drawable/square_layout_stroke_bg"/>
+
+        <EditText
+            android:id="@+id/edtDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="@dimen/paddingEdt"
+            android:hint="@string/description"
+            android:textColor="@color/menuTxtColor"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:background="@drawable/square_layout_stroke_bg"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

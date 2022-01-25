@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="25dp"
+    android:background="@color/white"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25">
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mobile"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:orientation="vertical">
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 SAM TAB a tablet14373855 samsung"
+            app:fontFamily="@string/opensansregular"
+            android:textAllCaps="true"
+            android:textColor="@color/menuTxtColor"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/menuTxtColor"
+                app:fontFamily="@string/opensansregular"
+                android:text="Price:"/>
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txtProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/btnColor"
+                app:fontFamily="@string/opensansregular"
+                android:text="KYD 450"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/menuTxtColor"
+                app:fontFamily="@string/opensansregular"
+                android:text="Sub Total:"/>
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txtProductSubtoralPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/btnColor"
+                app:fontFamily="@string/opensansregular"
+                android:text="KYD 450"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textColor="@color/menuTxtColor"
+                    android:text="+"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:textColor="@color/menuTxtColor"
+                    android:gravity="center"
+                    android:text="3"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textSize="20sp"
+                    android:textColor="@color/menuTxtColor"
+                    android:text="-"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/menuTxtColor"
+                    app:fontFamily="@string/opensansregular"
+                    android:text="Price inc tax"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/adapterSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner_background"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/menuTxtColor"
+                    android:background="@drawable/square_layout_bg"
+                    android:padding="8dp"
+                    android:textSize="14sp"
+                    android:text="Discount Amount"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/add_inactive"/>
+
+</RelativeLayout>

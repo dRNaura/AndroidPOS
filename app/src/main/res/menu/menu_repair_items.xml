@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/repair_edit"
+        android:icon="@drawable/edit_pop"
+        android:title="Edit" />
+
+<!--    <item-->
+<!--        android:id="@+id/quatation_delete"-->
+<!--        android:icon="@drawable/delete_icon"-->
+<!--        android:title="Delete"/>-->
+    <item
+        android:id="@+id/repair_print"
+        android:icon="@drawable/printicon"
+        android:title="Print"/>
+
+    <item
+        android:id="@+id/repair_sales"
+        android:icon="@drawable/edit_pop"
+        android:title="Repair Sales"/>
+
+    <item
+        android:id="@+id/repair_pay"
+        android:icon="@drawable/pay_icon"
+        android:title="Pay"/>
+</menu>

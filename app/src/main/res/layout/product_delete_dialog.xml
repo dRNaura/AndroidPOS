@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/delete" />
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <com.pos.salon.customview.CustomTextViewOpenSans
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure?"
+        android:textColor="@color/menuTxtColor"
+        android:textAlignment="center"
+        app:fontFamily="@string/opensansregular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonNo"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:background="@color/colorgray2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize"
+            android:text="No" />
+        <Button
+            android:id="@+id/buttonYes"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@color/colorBlue"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize"
+            android:layout_marginLeft="5dp"
+
+            android:text="Yes" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delivery_order_add_payment"
+        android:icon="@drawable/edit_pop"
+        android:title="Add Payment" />
+
+    <item
+        android:id="@+id/delivery_order_accepted"
+        android:icon="@drawable/edit_pop"
+        android:title="Mark Order As Accepted" />
+
+    <item
+        android:id="@+id/delivery_order_pickedup"
+        android:icon="@drawable/edit_pop"
+        android:title="Mark Order As Pickup Up" />
+    <item
+        android:id="@+id/delivery_order_returned"
+        android:icon="@drawable/edit_pop"
+        android:title="Mark Order As Returned"/>
+
+    <item
+        android:id="@+id/delivery_order_delivered"
+        android:icon="@drawable/edit_pop"
+        android:title="Mark Order As Delivered"/>
+    <item
+        android:id="@+id/delivery_order_print"
+        android:icon="@drawable/printicon"
+        android:title="Print"/>
+</menu>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "7,8,9,14,15,17,16,13,4,3,11,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "316,375,432,616,663,762,713,570,190,130,521,475",
+                        "endColumns": "57,55,41,45,48,56,47,44,49,58,45,44",
+                        "endOffsets": "369,426,469,657,707,814,756,610,235,184,562,515"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,211,257,306,363,411,456,506,565,611",
+                        "endColumns": "57,55,41,45,48,56,47,44,49,58,45,44",
+                        "endOffsets": "108,164,206,252,301,358,406,451,501,560,606,651"
+                    }
+                }
+            ]
+        }
+    ]
+}

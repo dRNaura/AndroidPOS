@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/booking_edit"
+        android:icon="@drawable/edit_pop"
+        android:title="Edit" />
+
+    <item
+        android:id="@+id/booking_change_status"
+        android:icon="@drawable/edit_pop"
+        android:title="Change Status" />
+
+<!--    <item-->
+<!--        android:id="@+id/booking_delete"-->
+<!--        android:icon="@drawable/return_icon"-->
+<!--        android:title="Delete" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/booking_cancel"-->
+<!--        android:icon="@drawable/delete_icon"-->
+<!--        android:title="Cancel Booking"/>-->
+
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgSpinner"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:src="@drawable/location"/>-->
+
+    <com.pos.salon.customview.CustomTextViewOpenSans
+        android:id="@+id/locationFilterText"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        app:fontFamily="@string/opensansregular"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

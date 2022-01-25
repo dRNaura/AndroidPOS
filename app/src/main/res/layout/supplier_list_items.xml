@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/lay_supplier_items"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:paddingBottom="15dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"
+                                android:text="Contact ID:"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"
+                                app:fontFamily="@string/opensansregular" />
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_contactID"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="4dp"
+                                android:gravity="left"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"
+                                android:text="Business Name:"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_BusinessName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"
+                                android:text="Name:"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_Name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:text="Contact:"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"
+                                app:fontFamily="@string/opensansregular" />
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_Contact"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Email:"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_Email"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"
+                                android:text="Total Purchase Due:"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_PurchaseDue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content">
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"
+                                android:text="Total Purchase Return Due:"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_supplier_ReturnPurchase"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                app:fontFamily="@string/opensansregular" />
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/lay_forward"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_forward"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rightarrow" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

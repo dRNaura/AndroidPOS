@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/barColor"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_below="@+id/txtHeadre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imgSuccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/sorry"/>
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txtThankYou"
+                android:layout_below="@+id/imgSuccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/btnColor"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular"
+                android:text="@string/sorry"/>
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txtCustomerName"
+                android:layout_below="@+id/txtThankYou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/menuTxtColor"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                app:fontFamily="@string/opensansregular"
+                android:text="@string/paymentReject"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    android:background="#F0E9E5">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Suspend Sale"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Mention Any Reason to Suspend Sale"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/ed_suspend_reason"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_bg"
+            android:hint="Reason For Suspend"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:maxLength="100"
+            android:textColor="@color/menuTxtColor"
+            android:textSize="16sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txt_cancel_suspend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:fontFamily="@string/opensansregular" />
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_weight="1" />
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txt_suspend_sale"
+            android:background="@color/colorBlue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Suspend"
+            android:textSize="16sp"
+
+            app:fontFamily="@string/opensansregular" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

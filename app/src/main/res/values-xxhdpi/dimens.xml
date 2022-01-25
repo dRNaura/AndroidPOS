@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+
+    <dimen name="layout_width">150dp</dimen>
+    <dimen name="layout_height">170dp</dimen>
+    <dimen name="layout_margin_top">20dp</dimen>
+    <dimen name="layout_text_size">16sp</dimen>
+    <dimen name="layout_margin_top_spinner">30dp</dimen>
+    <dimen name="padding_home">10dp</dimen>
+
+    <dimen name="margint_cross_icon">15dp</dimen>
+    <dimen name="margin_bottom">70dp</dimen>
+    <dimen name="edt_search_height">60dp</dimen>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="paddingEdt">10dp</dimen>
+    <dimen name="searchTextSize">16sp</dimen>
+</resources>

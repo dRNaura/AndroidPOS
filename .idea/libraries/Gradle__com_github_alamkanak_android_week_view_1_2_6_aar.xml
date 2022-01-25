@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.alamkanak:android-week-view:1.2.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98760c51354151dc2e1eb9bba3e694d4/jetified-android-week-view-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98760c51354151dc2e1eb9bba3e694d4/jetified-android-week-view-1.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98760c51354151dc2e1eb9bba3e694d4/jetified-android-week-view-1.2.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ee0e2ba033849e4df33ac9d43e3c486/jetified-android-week-view-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ee0e2ba033849e4df33ac9d43e3c486/jetified-android-week-view-1.2.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ee0e2ba033849e4df33ac9d43e3c486/jetified-android-week-view-1.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce73d76ab28ca1d3e3cd7ecef16b99ca/jetified-android-week-view-1.2.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce73d76ab28ca1d3e3cd7ecef16b99ca/jetified-android-week-view-1.2.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce73d76ab28ca1d3e3cd7ecef16b99ca/jetified-android-week-view-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f563a7cb5c15d3fad3a7ea6d5b355af/jetified-android-week-view-1.2.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f563a7cb5c15d3fad3a7ea6d5b355af/jetified-android-week-view-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f563a7cb5c15d3fad3a7ea6d5b355af/jetified-android-week-view-1.2.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.alamkanak/android-week-view/1.2.6/599356a6c6752c301dde4d7e4a2c15e8cc32ebbf/android-week-view-1.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.alamkanak/android-week-view/1.2.6/a6f7eb0035598721747348009727efc95fd3c5bb/android-week-view-1.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

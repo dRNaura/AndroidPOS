@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+<!--        <item-->
+<!--            android:id="@+id/nav_Dashboard"-->
+<!--            android:icon="@drawable/pos_return_deactive"-->
+<!--            android:title="Dashboard" />-->
+        <item
+            android:id="@+id/nav_addcustomer"
+            android:icon="@drawable/add_customer_deactive"
+            android:title="@string/menuAddCustomer" />
+        <item
+            android:id="@+id/nav_listcustomer"
+            android:icon="@drawable/list_customer_deactive"
+            android:title="@string/menuListCustomer" />
+        <item
+            android:id="@+id/nav_possale"
+            android:icon="@drawable/pos_return_deactive"
+            android:title="@string/posSale"/>
+
+        <item
+            android:id="@+id/nav_findInvoice"
+            android:icon="@mipmap/search"
+            android:title="@string/findPOs" />
+
+
+        <item
+            android:id="@+id/nav_listpos"
+            android:icon="@drawable/list_pos_deactive"
+            android:title="@string/listPos" />
+
+        <item
+            android:id="@+id/nav_returnsale"
+            android:icon="@drawable/pos_return_deactive"
+            android:title="@string/returnSale" />
+
+        <item
+            android:id="@+id/nav_drafts"
+            android:icon="@drawable/list_pos_deactive"
+            android:title="@string/listDraft" />
+
+        <item
+            android:id="@+id/nav_quotations"
+            android:icon="@drawable/quotation_pos__deactive"
+            android:title="@string/quotations" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

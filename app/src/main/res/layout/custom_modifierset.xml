@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_modifiername"
+        android:layout_height="wrap_content"
+        android:background="#F3F1EF"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_modifiername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sides"
+            android:textColor="@color/menuTxtColor"
+            android:textSize="16dp" />
+        
+        
+    </LinearLayout>
+
+
+   <!-- <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_variations"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_variationempty"
+            android:layout_marginRight="8dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </FrameLayout>-->
+
+
+
+</LinearLayout>

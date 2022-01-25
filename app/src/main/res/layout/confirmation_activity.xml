@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/barColor"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHeadre"
+        android:layout_margin="30dp"
+        android:background="@color/white"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imgSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sucusess" />
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txtThankYou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgSuccess"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/thankYou"
+            android:textColor="@color/menuTxtColor"
+            android:textSize="20sp"
+            app:fontFamily="@string/opensansregular" />
+
+        <LinearLayout
+            android:id="@+id/ll_dummy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtThankYou"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txtCustomerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtThankYou"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/btnColor"
+                android:textSize="20sp"
+                app:fontFamily="@string/opensansregular" />
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txtOrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCustomerName"
+                android:text=""
+                android:textColor="@color/menuTxtColor"
+                android:textSize="20sp"
+                app:fontFamily="@string/opensansregular" />
+
+
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/llSuccessfull"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/txtCustomerName"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:orientation="vertical">-->
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txtTotalPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_dummy"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/successfully"
+            android:textColor="@color/btnColor"
+            android:textSize="20sp"
+            app:fontFamily="@string/opensansregular" />
+
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTotalPay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner_print_background"
+                android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/spinnerPrint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dropDownVerticalOffset="40dp"
+                android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#e6e8ec"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="No"
+                    android:textSize="18sp"
+                    app:fontFamily="@string/opensansregular" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your email to get receipt"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="3dp"
+            android:singleLine="true"
+            android:textColorHint="@color/colorGray"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/menuTxtColor"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:id="@+id/responsepa"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

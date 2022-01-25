@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:gravity="bottom|center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_yellow_big" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <!-- android:text="jmelectronicsky@gmail.com"
+         android:text="lerestaurantestcay@hotmail.com"
+        android:text="bib.infinityfashions.ky@gmail.com"
+ android:text="lerestaurantestcay@hotmail.com"
+
+ // admin
+ j-anglin@candw.ky
+
+ //spg6010?
+        -->
+
+        // demo live user : new-tech@candw.ky 123456
+        //restrautrant live Champion 123456
+        //restrautrant beta lerestaurantestcay@hotmail.com 123456
+        // beta -car-dealer 123456
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopLogin"
+            android:backgroundTint="@color/btnColor"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="5dp"
+            android:hint="Enter your email"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorGray" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/btnColor"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="5dp"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorGray" />
+        <!--android:text="123456"-->
+        <!--android:text="infinity@123"-->if321
+        //Jm6010??   -for james electronics
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/btnColor"
+        android:text="@string/signin"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize" />
+
+</LinearLayout>

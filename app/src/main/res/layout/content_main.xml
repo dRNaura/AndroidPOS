@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_main"
+    android:background="@color/colorGray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:weightSum="2">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_add_customer"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/add_customer_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:text="@string/menuAddCustomer" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_list_customer"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="15sp"-->
+<!--                android:gravity="center">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/list_customer_deactive" />-->
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:text="@string/menuListCustomer" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/llPoaSale"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@drawable/round_layout_active_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/pos_sale_active" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/btnColor"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    android:text="@string/posSale" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_return_sale"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/pos_return_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    android:text="@string/returnSale" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:weightSum="2">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/list_pos"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="15sp"-->
+<!--                android:layout_marginTop="@dimen/layout_margin_top">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/list_pos_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    android:text="@string/listPos" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_quatations"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/quotation_pos__deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:text="@string/quotations"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    app:fontFamily="@string/opensansregular" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="2">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/list_dratfs"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/list_pos_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    android:text="@string/listDraft" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_repairs"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:gravity="center"-->
+<!--                android:visibility="invisible"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/list_pos_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:text="@string/repairs"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    app:fontFamily="@string/opensansregular" />-->
+
+<!--            </LinearLayout>-->
+
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="2">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_delivery_orders"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:visibility="invisible"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/list_pos_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    android:text="@string/delivery_order" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_products"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/round_layout_bg"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:visibility="invisible"-->
+<!--                android:padding="15sp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="55dp"-->
+<!--                    android:layout_height="55dp"-->
+<!--                    android:src="@drawable/list_pos_deactive" />-->
+
+<!--                <com.pos.shopplus.customview.CustomTextViewOpenSans-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textColor="@color/menuTxtColor"-->
+<!--                    app:fontFamily="@string/opensansregular"-->
+<!--                    android:textSize="@dimen/layout_text_size"-->
+<!--                    android:text="Products" />-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    </ScrollView>-->
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

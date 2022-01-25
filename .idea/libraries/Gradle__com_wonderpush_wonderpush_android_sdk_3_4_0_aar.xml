@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wonderpush:wonderpush-android-sdk:3.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/423537bf3dab391367ed1edc66ee1f34/jetified-wonderpush-android-sdk-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/423537bf3dab391367ed1edc66ee1f34/jetified-wonderpush-android-sdk-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/423537bf3dab391367ed1edc66ee1f34/jetified-wonderpush-android-sdk-3.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8762128cfab4820d4f46ce8369577a9/jetified-wonderpush-android-sdk-3.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8762128cfab4820d4f46ce8369577a9/jetified-wonderpush-android-sdk-3.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8762128cfab4820d4f46ce8369577a9/jetified-wonderpush-android-sdk-3.4.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65b4a2591439ba01be6a209a18c01d8e/jetified-wonderpush-android-sdk-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65b4a2591439ba01be6a209a18c01d8e/jetified-wonderpush-android-sdk-3.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65b4a2591439ba01be6a209a18c01d8e/jetified-wonderpush-android-sdk-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8bd88a171570daef8aa167b4ebbc1a7/jetified-wonderpush-android-sdk-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8bd88a171570daef8aa167b4ebbc1a7/jetified-wonderpush-android-sdk-3.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8bd88a171570daef8aa167b4ebbc1a7/jetified-wonderpush-android-sdk-3.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wonderpush/wonderpush-android-sdk/3.4.0/e94744179b6b22531a717f801ad27bc89d1f8ecd/wonderpush-android-sdk-3.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wonderpush/wonderpush-android-sdk/3.4.0/1f31add620181acf7911b3593416fff05d758581/wonderpush-android-sdk-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

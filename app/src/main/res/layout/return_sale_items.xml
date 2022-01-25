@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/lispos_stroke"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:gravity="left"
+                android:text="Product Name:"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular"/>
+
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txt_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:gravity="left"
+                android:text="Unit Price: "
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txt_return_unit_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="Sale Quantity:"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txt_return_sale_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="Return Quantity:"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txt_returnQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/square_layout_stroke_bg"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_return_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="Return Quantity"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox_is_defective"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Is Defective ?"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Return Subtotal:"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+
+
+            <com.pos.salon.customview.CustomTextViewOpenSans
+                android:id="@+id/txt_return_subtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:fontFamily="@string/opensansregular" />
+        </LinearLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="5dp"-->
+<!--            android:background="@drawable/square_layout_stroke_bg"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            -->
+
+
+<!--            <Spinner-->
+<!--                android:id="@+id/dropdown_paymentStatus"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:dropDownVerticalOffset="40dp"-->
+<!--                android:background="@drawable/spinner_background"-->
+<!--                android:spinnerMode="dropdown">-->
+<!--            </Spinner>-->
+<!--        </RelativeLayout>-->
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

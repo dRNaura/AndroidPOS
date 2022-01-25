@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/purchase_edit"
+        android:icon="@drawable/edit_pop"
+        android:title="Edit" />
+
+<!--    <item-->
+<!--        android:id="@+id/invoice_returnSale"-->
+<!--        android:icon="@drawable/return_icon"-->
+<!--        android:title="Return Sale" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/invoice_exchangeSale"-->
+<!--        android:icon="@drawable/return_icon"-->
+<!--        android:title="Exchange Sale" />-->
+
+    <item
+        android:id="@+id/delete_purchase"
+        android:icon="@drawable/delete_icon"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/purchase_Print"
+        android:icon="@drawable/printicon"
+        android:title="Print"/>
+<!--    <item-->
+<!--        android:id="@+id/invoice_new_sale_notification"-->
+<!--        android:icon="@drawable/printicon"-->
+<!--        android:title="New Sale Notification"/>-->
+</menu>

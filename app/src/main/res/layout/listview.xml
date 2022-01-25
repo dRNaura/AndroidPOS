@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bgColor"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lay_search_customer"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/square_layout_stroke_bg"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content">
+
+
+
+            <com.pos.salon.customview.DelayAutoCompleteTextView
+                android:id="@+id/edt_ref_searchCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Search Customer"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:background="@color/zxing_transparent"
+                app:fontFamily="@string/opensansregular"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/lay_search_customer"
+            android:layout_height="wrap_content"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="30dp"
+            style="?android:attr/progressBarStyle"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone" />
+
+
+
+        <!--    <ProgressBar-->
+        <!--        android:id="@+id/progressBar"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_gravity="center"-->
+        <!--        android:visibility="visible"-->
+        <!--        android:layout_height="wrap_content"/>-->
+
+        <!--    <com.github.ybq.android.spinkit.SpinKitView-->
+        <!--        android:id="@+id/progressBar"-->
+        <!--        style="@style/SpinKitView.Large.ThreeBounce"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_alignParentBottom="true"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:visibility="gone"-->
+        <!--        app:SpinKit_Color="@color/colorAccent" />-->
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

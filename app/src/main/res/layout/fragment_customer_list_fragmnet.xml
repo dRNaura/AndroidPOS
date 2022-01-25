@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:id="@+id/lay_customer_layout"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/barColor"
+            android:layout_height="20dp"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/square_layout_stroke_bg"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <com.pos.salon.customview.DelayAutoCompleteTextView
+                        android:id="@+id/edt_searchCustomer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Search Customer"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:background="@color/zxing_transparent"
+                        app:fontFamily="@string/opensansregular"/>
+
+
+
+
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/close_filter"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:visibility="gone"-->
+<!--                        android:layout_marginRight="15dp"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:src="@drawable/close"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/open_filter"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:layout_marginRight="10dp"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:src="@drawable/filter"/>-->
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/lay_filters"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:layout_height="wrap_content">
+
+                        <Spinner
+                            android:id="@+id/dropdown_paymentStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:dropDownVerticalOffset="40dp"
+                            android:background="@drawable/spinner_background"
+                            android:spinnerMode="dropdown">
+                        </Spinner>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+
+                        android:id="@+id/rl_date_range"
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txt_date_range"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textColor="@color/black"
+                            android:hint="Select Date Range"/>
+
+                        <ImageView
+                            android:id="@+id/cal_date_range"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="8dp"
+                            android:padding="5dp"
+                            android:src="@drawable/calendar"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:layout_height="wrap_content">
+
+                        <com.pos.salon.customview.DelayAutoCompleteTextView
+                            android:id="@+id/et_customer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Customer Name"
+                            android:inputType="textCapSentences"
+                            android:padding="5dp"
+                            android:background="@android:color/transparent"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:padding="5dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/name"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/rl_select_location"
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:layout_height="wrap_content">
+
+                        <Spinner
+                            android:id="@+id/dropdownLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:dropDownVerticalOffset="40dp"
+                            android:background="@drawable/spinner_background"
+                            android:spinnerMode="dropdown">
+                        </Spinner>
+
+                        <!--                <TextView-->
+                        <!--                    android:id="@+id/txt_select_location"-->
+                        <!--                    android:layout_width="wrap_content"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:padding="5dp"-->
+                        <!--                    android:text="Select Location" />-->
+
+                        <!--                <ImageView-->
+                        <!--                    android:layout_width="wrap_content"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:layout_alignParentRight="true"-->
+                        <!--                    android:layout_marginRight="2dp"-->
+                        <!--                    android:padding="5dp"-->
+                        <!--                    android:layout_centerInParent="true"-->
+                        <!--                    android:src="@drawable/arrowdown"/>-->
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_apply_changes"
+                        android:layout_width="match_parent"
+                        android:background="@color/barColor"
+                        android:layout_marginTop="10dp"
+                        android:padding="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/white"
+                            android:text="Apply Changes"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_search"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <com.pos.salon.customview.CustomTextViewOpenSans
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:fontFamily="@string/opensansregular" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:background="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="0.5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/ll_search"
+            android:layout_height="match_parent">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/listCustomerRecycler"
+                android:layout_marginTop="15dp"
+                android:layout_above="@+id/progressBar"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"/>
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="30dp"
+                style="?android:attr/progressBarStyle"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_no_resut"
+                android:layout_width="wrap_content"
+                android:text="No Result Found"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_booking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/barColor" />
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/et_bg"
+                android:visibility="visible"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/lay_filters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="Filters"
+                        android:background="@android:color/transparent"
+                        android:textSize="18sp"
+                        app:fontFamily="@string/opensansregular" />
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:text="Select Filters"
+                        android:textColor="@color/white"
+                        android:background="@color/menuTxtColor"
+                        android:padding="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="gone"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="wrap_content"/>
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:padding="5dp"
+                        android:visibility="visible"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/filters_black"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_search">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listBookingRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/progressBar"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp" />
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_no_resut"
+                android:layout_width="wrap_content"
+                android:text="No Result Found"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

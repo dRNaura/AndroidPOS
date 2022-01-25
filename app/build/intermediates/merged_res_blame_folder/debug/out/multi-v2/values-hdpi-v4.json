@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\f93e9af0c129e2fe514ae2d52a50703b\\appcompat-1.3.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "791",
+                        "endLines": "21",
+                        "endColumns": "13",
+                        "endOffsets": "1063"
+                    }
+                },
+                {
+                    "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "7,8,17,9,14,15,18,19,16,13,4,3,20,11,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "316,375,762,432,616,663,808,866,713,570,190,130,913,521,475",
+                        "endColumns": "57,55,44,41,45,48,56,45,47,44,49,58,43,45,44",
+                        "endOffsets": "369,426,802,469,657,707,860,907,756,610,235,184,952,562,515"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,214,256,302,351,408,454,502,547,597,656,700,746",
+                        "endColumns": "57,55,44,41,45,48,56,45,47,44,49,58,43,45,44",
+                        "endOffsets": "108,164,209,251,297,346,403,449,497,542,592,651,695,741,786"
+                    }
+                }
+            ]
+        }
+    ]
+}

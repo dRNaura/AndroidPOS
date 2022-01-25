@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1d2d36</color>
+    <color name="colorPrimaryDark">#355162</color>
+    <color name="colorAccent">#355162</color>
+    <color name="black">#000000</color>
+    <color name="bgColor">#E7E8EC</color>
+    <color name="btnColor">#F0CA4D</color>
+    <color name="white">#ffffff</color>
+    <color name="edtLineColor">#7E7B50</color>
+    <color name="barColor">#293F4C</color>
+    <color name="menuTxtColor">#28404A</color>
+    <color name="borderColor">#F8F8F8</color>
+    <color name="orange">#FF8B24</color>
+    <color name="payBtn">#5EB56E</color>
+    <color name="colorGray">#C5C5C5</color>
+    <color name="colorgray2">#ddd</color>
+    <color name="colorBlue">#3a99db</color>
+    <color name="colorRed">#dd4b39</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+</resources>

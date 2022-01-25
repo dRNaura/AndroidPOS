@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_editext"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Booking"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <View
+                android:id="@+id/lay_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/dialog_title"
+                android:layout_marginTop="10dp"
+                android:background="@color/barColor"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/lay_view"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:text="Select Date:"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/lay_bookingDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:padding="8dp"
+                            android:background="@drawable/et_bg">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:src="@drawable/calendar"
+                                android:layout_gravity="center"
+                                android:layout_height="25dp"/>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:background="@color/zxing_viewfinder_mask"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <com.pos.salon.customview.CustomTextViewOpenSans
+                                android:id="@+id/txt_booking_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5sp"
+                        android:text="Select Time:"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lay_bookingTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="8dp"
+                        android:background="@drawable/et_bg">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:src="@mipmap/clock_img"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="25dp"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:background="@color/zxing_viewfinder_mask"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="match_parent"/>
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:id="@+id/txt_bookingTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <com.pos.salon.customview.CustomTextViewOpenSans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:ellipsize="end"
+                        android:text="Select Employee"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/square_layout_stroke_bg"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/lay_customer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <com.pos.salon.customview.DelayAutoCompleteTextView
+                                android:id="@+id/et_employee_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:hint="Search Employee"
+                                android:inputType="textCapSentences"
+                                android:paddingRight="5dp"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <ImageView
+                                android:id="@+id/img_empli"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/name" />
+
+                        </RelativeLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recycler_employee"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lay_customer" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_apply_changes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/barColor"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Proceed To Pay"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:id="@+id/img_cancel_dialog"
+        android:layout_width="30dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/popup_close"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="30dp"/>
+
+</RelativeLayout>

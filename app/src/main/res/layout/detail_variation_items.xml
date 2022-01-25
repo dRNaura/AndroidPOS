@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content">
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:layout_width="wrap_content"
+            android:text="Location:"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txt_location_name"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:padding="5dp"
+        android:background="@color/payBtn"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="Variation" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="DPP(Exc.Tax)" />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="DPP(Inc.Tax)" />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="x Margin(%)s" />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:text="DSP(Exc. tax)"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="DSP(Inc. tax)" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:background="@color/colorGray"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_product_variation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:text="(Size: 9.5 , Color: Rose Gold)" />
+
+        <TextView
+            android:id="@+id/txt_dpp_exc_tax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:text="0.00" />
+
+        <TextView
+            android:id="@+id/txt_dpp_inc_tax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="0.00" />
+
+        <TextView
+            android:id="@+id/txt_x_margin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="0.00" />
+        <TextView
+            android:id="@+id/txt_dsp_exc_tax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="0.00" />
+        <TextView
+            android:id="@+id/txt_dsp_inc_tax"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="0.00" />
+
+    </LinearLayout>
+
+</LinearLayout>

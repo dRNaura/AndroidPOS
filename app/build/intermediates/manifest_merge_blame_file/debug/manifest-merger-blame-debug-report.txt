@@ -1,0 +1,871 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pos.salon"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+11-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:6:5-76
+11-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:7:5-67
+12-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:8:5-79
+13-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:9:5-81
+14-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:10:5-80
+15-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:11:5-65
+16-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:12:5-66
+17-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:12:22-63
+18    <uses-permission android:name="android.permission.FLASHLIGHT" />
+18-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:13:5-69
+18-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:13:22-66
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:14:5-79
+19-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:15:5-81
+20-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:16:5-69
+21-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:16:22-66
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:17:5-75
+22-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:17:22-72
+23
+24    <uses-feature android:name="android.hardware.camera" />
+24-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:19:5-60
+24-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:19:19-57
+25    <uses-feature android:name="android.hardware.camera.autofocus" />
+25-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:20:5-70
+25-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:20:19-67
+26
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:22:5-68
+27-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:22:22-65
+28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+28-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:23:5-74
+28-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:23:22-71
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:24:5-76
+29-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:24:22-73
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:25:5-82
+30-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:25:22-79
+31    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- for android -->
+31-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:26:5-68
+31-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:26:22-65
+32    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+33    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+34    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+35    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+36    <!-- for Samsung -->
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+37-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:32:5-86
+37-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:32:22-83
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+38-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:33:5-87
+38-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:33:22-84
+39    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+39-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:34:5-81
+39-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:34:22-78
+40    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+40-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:35:5-83
+40-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:35:22-80
+41    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+41-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:36:5-88
+41-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:36:22-85
+42    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+42-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:37:5-92
+42-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:37:22-89
+43    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+43-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:38:5-84
+43-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:38:22-81
+44    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+44-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:39:5-83
+44-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:39:22-80
+45    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+45-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:40:5-91
+45-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:40:22-88
+46    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+46-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:41:5-92
+46-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:41:22-89
+47    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+47-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:42:5-93
+47-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:42:22-90
+48    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+48-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:43:5-73
+48-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:43:22-70
+49    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+49-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:44:5-82
+49-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:44:22-79
+50    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+50-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:45:5-83
+50-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:45:22-80
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+51-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:46:5-88
+51-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:46:22-85
+52    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+52-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:47:5-89
+52-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:47:22-86
+53    <uses-permission android:name="android.permission.NFC" />
+53-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:48:5-62
+53-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:48:22-59
+54    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+54-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:49:5-71
+54-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:49:22-68
+55
+56    <uses-feature android:name="android.hardware.usb.host" />
+56-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:50:5-62
+56-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:50:19-59
+57
+58    <uses-permission android:name="android.hardware.usb.accessory" />
+58-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:51:5-70
+58-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:51:22-67
+59    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+59-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:52:5-81
+59-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:52:22-78
+60
+61    <uses-feature android:name="android.hardware.autofocus" />
+61-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:53:5-63
+61-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:53:19-60
+62    <uses-feature
+62-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+63        android:name="android.hardware.camera.front"
+63-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+64        android:required="false" />
+64-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+65    <uses-feature
+65-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+66        android:name="android.hardware.camera.flash"
+66-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+67        android:required="false" />
+67-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+68    <uses-feature
+68-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+69        android:name="android.hardware.screen.landscape"
+69-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+70        android:required="false" />
+70-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+71    <uses-feature
+71-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+72        android:name="android.hardware.wifi"
+72-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+73        android:required="false" />
+73-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+74
+75    <application
+75-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:55:5-272:19
+76        android:allowBackup="false"
+76-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:56:9-36
+77        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+77-->[androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c3958e0ed9aa6204f72bcdee89225323\core-1.5.0\AndroidManifest.xml:24:18-86
+78        android:debuggable="true"
+79        android:hardwareAccelerated="true"
+79-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:57:9-43
+80        android:icon="@drawable/ic_launcher"
+80-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:58:9-45
+81        android:label="@string/app_name"
+81-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:59:9-41
+82        android:supportsRtl="true"
+82-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:60:9-35
+83        android:testOnly="true"
+84        android:theme="@style/AppTheme.NoActionBar" >
+84-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:61:9-52
+85        <activity
+85-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:63:9-65:56
+86            android:name="com.pos.salon.activity.BookingSection.BookinDateTimeActivity"
+86-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:63:19-81
+87            android:screenOrientation="portrait"
+87-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:64:13-49
+88            android:windowSoftInputMode="stateHidden" />
+88-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:65:13-54
+89        <activity
+89-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:66:9-68:56
+90            android:name="com.pos.salon.activity.BookingSection.BookingCategoryActivity"
+90-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:66:19-82
+91            android:screenOrientation="portrait"
+91-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:67:13-49
+92            android:windowSoftInputMode="stateHidden" />
+92-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:68:13-54
+93        <activity
+93-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:69:9-72:57
+94            android:name="com.pos.salon.activity.JeoPowerDeviceSDK.Scanner.ScannerActivity"
+94-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:70:13-79
+95            android:screenOrientation="portrait"
+95-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:71:13-49
+96            android:windowSoftInputMode="stateHidden" />
+96-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:72:13-54
+97        <activity
+97-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:73:9-74:51
+98            android:name="com.pos.salon.activity.JeoPowerDeviceSDK.CamraScan.CaptureActivity"
+98-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:73:19-87
+99            android:screenOrientation="portrait" />
+99-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:74:13-49
+100        <activity android:name="com.pos.salon.activity.JeoPowerDeviceSDK.Printer.ThermalActivityPrinter" />
+100-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:75:9-95
+100-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:75:19-92
+101        <activity android:name="com.pos.salon.activity.JeoPowerDeviceSDK.DemoAppScreen" />
+101-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:76:9-78
+101-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:76:19-75
+102        <activity
+102-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:77:9-78:51
+103            android:name="com.pos.salon.activity.ActivityProduct.VariationValueActivity"
+103-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:77:19-82
+104            android:screenOrientation="portrait" />
+104-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:78:13-49
+105        <activity
+105-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:79:9-82:57
+106            android:name="com.pos.salon.activity.StockTransfer.AddStockTransfer"
+106-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:80:13-68
+107            android:screenOrientation="portrait"
+107-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:81:13-49
+108            android:windowSoftInputMode="stateHidden" />
+108-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:82:13-54
+109        <activity
+109-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:83:9-86:57
+110            android:name="com.pos.salon.activity.StockTransfer.StockTransferListActivity"
+110-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:84:13-77
+111            android:screenOrientation="portrait"
+111-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:85:13-49
+112            android:windowSoftInputMode="stateHidden" />
+112-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:86:13-54
+113        <activity
+113-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:87:9-90:57
+114            android:name="com.pos.salon.activity.UserManagement.UserDetailViewActivity"
+114-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:88:13-75
+115            android:screenOrientation="portrait"
+115-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:89:13-49
+116            android:windowSoftInputMode="stateHidden" />
+116-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:90:13-54
+117        <activity
+117-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:91:9-94:57
+118            android:name="com.pos.salon.activity.UserManagement.AddUserManageActivity"
+118-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:92:13-74
+119            android:screenOrientation="portrait"
+119-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:93:13-49
+120            android:windowSoftInputMode="stateHidden" />
+120-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:94:13-54
+121        <activity
+121-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:95:9-98:57
+122            android:name="com.pos.salon.activity.UserManagement.UserManageActivity"
+122-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:96:13-71
+123            android:screenOrientation="portrait"
+123-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:97:13-49
+124            android:windowSoftInputMode="stateHidden" />
+124-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:98:13-54
+125        <activity
+125-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:99:9-102:57
+126            android:name="com.pos.salon.activity.ActivityPurchases.PurchaseDetailActivity"
+126-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:100:13-78
+127            android:screenOrientation="portrait"
+127-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:101:13-49
+128            android:windowSoftInputMode="stateHidden" />
+128-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:102:13-54
+129        <activity
+129-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:103:9-106:57
+130            android:name="com.pos.salon.activity.ActivityProduct.BrandsActivity"
+130-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:104:13-68
+131            android:screenOrientation="portrait"
+131-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:105:13-49
+132            android:windowSoftInputMode="stateHidden" />
+132-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:106:13-54
+133        <activity
+133-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:107:9-110:57
+134            android:name="com.pos.salon.activity.ActivityProduct.CategoryActivity"
+134-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:108:13-70
+135            android:screenOrientation="portrait"
+135-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:109:13-49
+136            android:windowSoftInputMode="stateHidden" />
+136-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:110:13-54
+137        <activity
+137-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:111:9-114:57
+138            android:name="com.pos.salon.activity.SupplierActivity.SupplierDetailActivity"
+138-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:112:13-77
+139            android:screenOrientation="portrait"
+139-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:113:13-49
+140            android:windowSoftInputMode="stateHidden" />
+140-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:114:13-54
+141        <activity
+141-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:115:9-118:57
+142            android:name="com.pos.salon.activity.SupplierActivity.SupplierAddActivity"
+142-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:116:13-74
+143            android:screenOrientation="portrait"
+143-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:117:13-49
+144            android:windowSoftInputMode="stateHidden" />
+144-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:118:13-54
+145        <activity
+145-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:119:9-122:57
+146            android:name="com.pos.salon.activity.SupplierActivity.SupplierSection"
+146-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:120:13-70
+147            android:screenOrientation="portrait"
+147-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:121:13-49
+148            android:windowSoftInputMode="stateHidden" />
+148-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:122:13-54
+149        <activity
+149-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:123:9-126:57
+150            android:name="com.pos.salon.activity.TodayProfitActivity"
+150-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:124:13-57
+151            android:screenOrientation="portrait"
+151-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:125:13-49
+152            android:windowSoftInputMode="stateHidden" />
+152-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:126:13-54
+153        <activity
+153-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:127:9-130:57
+154            android:name="com.pos.salon.activity.ActivityPurchases.AddPurchaseSection.PurchaseProductPaymentActivity"
+154-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:128:13-105
+155            android:screenOrientation="portrait"
+155-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:129:13-49
+156            android:windowSoftInputMode="stateHidden" />
+156-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:130:13-54
+157        <activity
+157-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:131:9-134:57
+158            android:name="com.pos.salon.activity.ActivityPurchases.AddPurchaseSection.PurchaseProductSearchList"
+158-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:132:13-100
+159            android:screenOrientation="portrait"
+159-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:133:13-49
+160            android:windowSoftInputMode="stateHidden" />
+160-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:134:13-54
+161        <activity
+161-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:135:9-138:57
+162            android:name="com.pos.salon.activity.ActivityPurchases.AddPurchaseSection.PurchaseProductSearchActivity"
+162-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:136:13-104
+163            android:screenOrientation="portrait"
+163-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:137:13-49
+164            android:windowSoftInputMode="stateHidden" />
+164-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:138:13-54
+165        <activity
+165-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:139:9-142:57
+166            android:name="com.pos.salon.activity.ActivityPurchases.PurchasesListActivity"
+166-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:140:13-77
+167            android:screenOrientation="portrait"
+167-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:141:13-49
+168            android:windowSoftInputMode="stateHidden" />
+168-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:142:13-54
+169        <activity
+169-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:143:9-146:57
+170            android:name="com.pos.salon.activity.ActivityPurchases.AddPurchaseSection.AddPurchaseActivity"
+170-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:144:13-94
+171            android:screenOrientation="portrait"
+171-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:145:13-49
+172            android:windowSoftInputMode="stateHidden" />
+172-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:146:13-54
+173        <activity
+173-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:147:9-150:57
+174            android:name="com.pos.salon.activity.ActivityPurchases.PurchasesSectionActivity"
+174-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:148:13-80
+175            android:screenOrientation="portrait"
+175-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:149:13-49
+176            android:windowSoftInputMode="stateHidden" />
+176-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:150:13-54
+177        <activity
+177-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:151:9-154:57
+178            android:name="com.pos.salon.activity.ActivityProduct.ProductDetailActivity"
+178-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:152:13-75
+179            android:screenOrientation="portrait"
+179-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:153:13-49
+180            android:windowSoftInputMode="stateHidden" />
+180-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:154:13-54
+181        <activity
+181-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:155:9-158:57
+182            android:name="com.pos.salon.activity.ActivityProduct.AddProduct"
+182-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:156:13-64
+183            android:screenOrientation="portrait"
+183-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:157:13-49
+184            android:windowSoftInputMode="stateHidden" />
+184-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:158:13-54
+185        <activity
+185-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:159:9-162:57
+186            android:name="com.pos.salon.activity.ActivityProduct.ProductList"
+186-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:160:13-65
+187            android:screenOrientation="portrait"
+187-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:161:13-49
+188            android:windowSoftInputMode="stateHidden" />
+188-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:162:13-54
+189        <activity
+189-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:163:9-166:57
+190            android:name="com.pos.salon.activity.ActivityProduct.ProductSection"
+190-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:164:13-68
+191            android:screenOrientation="portrait"
+191-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:165:13-49
+192            android:windowSoftInputMode="stateHidden" />
+192-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:166:13-54
+193        <activity
+193-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:167:9-170:57
+194            android:name="com.pos.salon.activity.NotificationActivity"
+194-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:168:13-58
+195            android:screenOrientation="portrait"
+195-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:169:13-49
+196            android:windowSoftInputMode="stateHidden" />
+196-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:170:13-54
+197        <activity
+197-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:171:9-174:57
+198            android:name="com.pos.salon.activity.BluetoothPrintActivity"
+198-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:172:13-60
+199            android:screenOrientation="portrait"
+199-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:173:13-49
+200            android:windowSoftInputMode="stateHidden" />
+200-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:174:13-54
+201        <activity
+201-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:175:9-178:57
+202            android:name="com.pos.salon.activity.CloseRegister"
+202-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:176:13-51
+203            android:screenOrientation="portrait"
+203-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:177:13-49
+204            android:windowSoftInputMode="stateHidden" />
+204-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:178:13-54
+205        <activity
+205-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:179:9-181:52
+206            android:name="com.pos.salon.activity.ActivityPayment.PartialCustomerProducts"
+206-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:180:13-77
+207            android:screenOrientation="portrait" />
+207-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:181:13-49
+208        <activity
+208-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:182:9-184:52
+209            android:name="com.pos.salon.activity.ScanActivity"
+209-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:183:13-50
+210            android:screenOrientation="portrait" />
+210-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:184:13-49
+211        <activity
+211-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:185:9-188:57
+212            android:name="com.pos.salon.activity.AddCustomerActivity"
+212-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:186:13-57
+213            android:screenOrientation="portrait"
+213-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:187:13-49
+214            android:windowSoftInputMode="stateHidden" />
+214-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:188:13-54
+215        <activity android:name="com.pos.salon.activity.SplashActivity" >
+215-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:189:9-195:20
+215-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:189:19-58
+216            <intent-filter>
+216-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:190:13-194:29
+217                <action android:name="android.intent.action.MAIN" />
+217-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:191:17-69
+217-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:191:25-66
+218
+219                <category android:name="android.intent.category.LAUNCHER" />
+219-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:193:17-77
+219-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:193:27-74
+220            </intent-filter>
+221        </activity>
+222        <activity
+222-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:196:9-199:57
+223            android:name="com.pos.salon.activity.LoginActivity"
+223-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:197:13-51
+224            android:screenOrientation="portrait"
+224-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:198:13-49
+225            android:windowSoftInputMode="stateHidden" />
+225-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:199:13-54
+226        <activity
+226-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:200:9-203:57
+227            android:name="com.pos.salon.activity.HomeActivity"
+227-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:201:13-50
+228            android:screenOrientation="portrait"
+228-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:202:13-49
+229            android:windowSoftInputMode="stateHidden" />
+229-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:203:13-54
+230        <activity
+230-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:204:9-207:57
+231            android:name="com.pos.salon.activity.ActivityPosSale.ActivityPosTerminalDropdown"
+231-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:205:13-81
+232            android:screenOrientation="portrait"
+232-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:206:13-49
+233            android:windowSoftInputMode="stateHidden" />
+233-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:207:13-54
+234        <activity
+234-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:208:9-211:57
+235            android:name="com.pos.salon.activity.ActivityPosSale.ActivitySearchItemList"
+235-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:209:13-76
+236            android:screenOrientation="portrait"
+236-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:210:13-49
+237            android:windowSoftInputMode="stateHidden" />
+237-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:211:13-54
+238        <activity
+238-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:212:9-215:67
+239            android:name="com.pos.salon.activity.ConfirmationActivity"
+239-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:213:13-58
+240            android:screenOrientation="portrait"
+240-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:214:13-49
+241            android:windowSoftInputMode="stateHidden|adjustPan" />
+241-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:215:13-64
+242        <activity
+242-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:216:9-219:69
+243            android:name="com.pos.salon.activity.ActivityPosSale.ActivityPosItemList"
+243-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:217:13-73
+244            android:screenOrientation="portrait"
+244-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:218:13-49
+245            android:windowSoftInputMode="adjustResize|stateHidden" />
+245-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:219:13-67
+246        <activity
+246-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:220:9-223:57
+247            android:name="com.pos.salon.activity.ActivityPayment.ActivityPayment"
+247-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:221:13-69
+248            android:screenOrientation="portrait"
+248-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:222:13-49
+249            android:windowSoftInputMode="stateHidden" />
+249-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:223:13-54
+250        <activity
+250-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:224:9-227:67
+251            android:name="com.pos.salon.activity.ActivityPayment.ActivityPaymentFalse"
+251-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:225:13-74
+252            android:screenOrientation="portrait"
+252-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:226:13-49
+253            android:windowSoftInputMode="stateHidden|adjustPan" />
+253-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:227:13-64
+254        <activity android:name="com.pos.salon.model.BTDevicesList" />
+254-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:228:9-57
+254-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:228:19-54
+255
+256        <meta-data
+256-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:230:9-232:72
+257            android:name="io.fabric.ApiKey"
+257-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:231:13-44
+258            android:value="3780be88262d373413a8df9840de40ed72db11d4" />
+258-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:232:13-69
+259
+260        <receiver
+260-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:234:9-249:20
+261            android:name="com.pos.salon.model.NotificationBroadcastReceiver"
+261-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:235:13-64
+262            android:permission="com.google.android.c2dm.permission.SEND" >
+262-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:236:13-73
+263            <meta-data
+263-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:237:13-239:60
+264                android:name="notificationIcon"
+264-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:238:17-48
+265                android:resource="@drawable/ic_launcher" />
+265-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:239:17-57
+266            <meta-data
+266-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:240:13-242:49
+267                android:name=".activity.HomeActivity"
+267-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:241:17-54
+268                android:value="com.pos.salon" />
+268-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:242:17-46
+269
+270            <intent-filter>
+270-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:244:13-248:29
+271                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+271-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:245:17-81
+271-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:245:25-78
+272
+273                <category android:name="com.pos.salon" />
+273-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:247:17-58
+273-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:247:27-55
+274            </intent-filter>
+275        </receiver>
+276
+277        <service
+277-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:251:9-261:19
+278            android:name="com.wonderpush.sdk.WonderPushService"
+278-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:252:13-64
+279            android:enabled="true"
+279-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:253:13-35
+280            android:exported="false"
+280-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:254:13-37
+281            android:label="Push Notification service" >
+281-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:255:13-54
+282            <intent-filter>
+282-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:256:13-260:29
+283                <action android:name="android.intent.action.VIEW" />
+283-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:257:17-69
+283-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:257:25-66
+284
+285                <data android:scheme="wonderpush" />
+285-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:259:17-53
+285-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:259:23-50
+286            </intent-filter>
+287        </service>
+288        <service android:name="com.pos.salon.activity.JeoPowerDeviceSDK.Scanner.ScanService" />
+288-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:262:9-83
+288-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:262:18-80
+289
+290        <receiver android:name="com.pos.salon.activity.JeoPowerDeviceSDK.Scanner.BootBroadcastReceiver" >
+290-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:264:9-271:20
+290-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:264:19-91
+291            <intent-filter>
+291-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:265:13-270:29
+292                <action android:name="android.intent.action.BOOT_COMPLETED" />
+292-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:266:17-79
+292-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:266:25-76
+293                <action android:name="android.intent.action.USER_PRESENT" />
+293-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:267:17-77
+293-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:267:25-74
+294                <action android:name="android.intent.action.SCREEN_ON" />
+294-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:268:17-74
+294-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:268:25-71
+295                <action android:name="ScanServiceDestroy" />
+295-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:269:17-61
+295-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:269:25-58
+296            </intent-filter>
+297        </receiver>
+298
+299        <service
+299-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:8:9-14:19
+300            android:name="com.wonderpush.sdk.push.DiscoveryService"
+300-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:9:13-68
+301            android:exported="false" >
+301-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:10:13-37
+302            <meta-data
+302-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:11:13-13:71
+303                android:name="com.wonderpush.sdk.push:com.wonderpush.sdk.push.fcm.FCMPushService"
+303-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:12:17-98
+304                android:value="com.wonderpush.sdk.push.PushService" />
+304-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:13:17-68
+305        </service>
+306        <service
+306-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:15:9-21:19
+307            android:name="com.wonderpush.sdk.push.fcm.FirebaseMessagingService"
+307-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:16:13-80
+308            android:exported="false" >
+308-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:17:13-37
+309            <intent-filter>
+309-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:18:13-20:29
+310                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+310-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:19:17-78
+310-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:19:25-75
+311            </intent-filter>
+312        </service>
+313
+314        <provider
+314-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:17:9-21:38
+315            android:name="com.wonderpush.sdk.WonderPushInitProvider"
+315-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:18:13-69
+316            android:authorities="com.pos.salon.wonderpush.initprovider"
+316-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:19:13-75
+317            android:exported="false"
+317-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:20:13-37
+318            android:initOrder="90" />
+318-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:21:13-35
+319
+320        <service
+320-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:23:9-27:19
+321            android:name="com.wonderpush.sdk.WonderPushResourcesService"
+321-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:24:13-73
+322            android:exported="false"
+322-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:25:13-37
+323            android:permission="android.permission.BIND_JOB_SERVICE" >
+323-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:26:13-69
+324        </service>
+325
+326        <provider
+326-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:48:9-60:20
+327            android:name="androidx.core.content.FileProvider"
+327-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:49:13-62
+328            android:authorities="com.pos.salon.wonderpush.fileprovider"
+328-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:50:13-75
+329            android:exported="false"
+329-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:51:13-37
+330            android:grantUriPermissions="true" >
+330-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:52:13-47
+331            <grant-uri-permission android:pathPrefix="" />
+331-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:53:13-59
+331-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:53:35-56
+332
+333            <path-permission android:pathPrefix="" />
+333-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:55:13-54
+333-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:55:30-51
+334
+335            <meta-data
+335-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:57:13-59:66
+336                android:name="android.support.FILE_PROVIDER_PATHS"
+336-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:58:17-67
+337                android:resource="@xml/wp_file_provider_paths" />
+337-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:59:17-63
+338        </provider>
+339
+340        <receiver
+340-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:62:9-74:20
+341            android:name="com.wonderpush.sdk.ConfigurationChangedReceiver"
+341-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:63:13-75
+342            android:enabled="true"
+342-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:64:13-35
+343            android:exported="false" >
+343-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:65:13-37
+344            <intent-filter>
+344-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:66:13-73:29
+345                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+345-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:67:17-81
+345-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:67:25-78
+346                <action android:name="android.intent.action.LOCALE_CHANGED" />
+346-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:68:17-79
+346-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:68:25-76
+347                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+347-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:69:17-84
+347-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:69:25-81
+348                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+348-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:70:17-85
+348-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:70:25-82
+349                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+349-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:71:17-102
+349-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:71:25-99
+350                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+350-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:72:17-108
+350-->[com.wonderpush:wonderpush-android-sdk:3.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\65b4a2591439ba01be6a209a18c01d8e\jetified-wonderpush-android-sdk-3.4.0\AndroidManifest.xml:72:25-105
+351            </intent-filter>
+352        </receiver>
+353
+354        <activity
+354-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+355            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+355-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+356            android:clearTaskOnLaunch="true"
+356-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+357            android:screenOrientation="sensorLandscape"
+357-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+358            android:stateNotNeeded="true"
+358-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+359            android:theme="@style/zxing_CaptureTheme"
+359-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+360            android:windowSoftInputMode="stateAlwaysHidden" />
+360-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4b6b7177fb2bdb7b22100ced2ac963a3\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+361        <!--
+362             FirebaseMessagingService performs security checks at runtime,
+363             but set to not exported to explicitly avoid allowing another app to call it.
+364        -->
+365        <service
+365-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:28:9-35:19
+366            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+366-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:29:13-82
+367            android:directBootAware="true"
+367-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:30:13-43
+368            android:exported="false" >
+368-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:31:13-37
+369            <intent-filter android:priority="-500" >
+369-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:18:13-20:29
+370                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+370-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:19:17-78
+370-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\aab89c754eb6492a526508019406933c\jetified-wonderpush-android-sdk-fcm-1.0.5\AndroidManifest.xml:19:25-75
+371            </intent-filter>
+372        </service>
+373        <service
+373-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:36:9-42:19
+374            android:name="com.google.firebase.components.ComponentDiscoveryService"
+374-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:37:13-84
+375            android:directBootAware="true"
+375-->[com.google.firebase:firebase-common:19.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8910ee0906d86511aab12aa992246233\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+376            android:exported="false" >
+376-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:38:13-37
+377            <meta-data
+377-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:39:13-41:85
+378                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+378-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:40:17-119
+379                android:value="com.google.firebase.components.ComponentRegistrar" />
+379-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35bd50743935e8846e0184380760e58c\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:41:17-82
+380            <meta-data
+380-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:32:13-34:85
+381                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+381-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:33:17-96
+382                android:value="com.google.firebase.components.ComponentRegistrar" />
+382-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:34:17-82
+383            <meta-data
+383-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4f9039eec47209a8d74888c5dc940345\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+384                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+384-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4f9039eec47209a8d74888c5dc940345\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+385                android:value="com.google.firebase.components.ComponentRegistrar" />
+385-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4f9039eec47209a8d74888c5dc940345\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+386            <meta-data
+386-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2fa9b8595de4a6d2137fe5435b40cc36\jetified-firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+387                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+387-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2fa9b8595de4a6d2137fe5435b40cc36\jetified-firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+388                android:value="com.google.firebase.components.ComponentRegistrar" />
+388-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2fa9b8595de4a6d2137fe5435b40cc36\jetified-firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+389        </service>
+390
+391        <receiver
+391-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:37:9-44:20
+392            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+392-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:38:13-78
+393            android:exported="true"
+393-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:39:13-36
+394            android:permission="com.google.android.c2dm.permission.SEND" >
+394-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:40:13-73
+395            <intent-filter>
+395-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\36398bb719a31758f3c03c9814e2d62b\jetified-firebase-iid-20.3.0\AndroidManifest.xml:41:13-43:29
+396                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+396-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:245:17-81
+396-->G:\AndroidStudioProjects\JamesProject\ShopPlus-Pos\ShopPlusSalon_DEV\ShopPlusSalon\app\src\main\AndroidManifest.xml:245:25-78
+397            </intent-filter>
+398        </receiver>
+399
+400        <activity
+400-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f3b8d138999674dbe8a9e5f274ceb1c3\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+401            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+401-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f3b8d138999674dbe8a9e5f274ceb1c3\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+402            android:exported="false"
+402-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f3b8d138999674dbe8a9e5f274ceb1c3\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+403            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+403-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f3b8d138999674dbe8a9e5f274ceb1c3\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+404
+405        <provider
+405-->[com.google.firebase:firebase-common:19.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8910ee0906d86511aab12aa992246233\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+406            android:name="com.google.firebase.provider.FirebaseInitProvider"
+406-->[com.google.firebase:firebase-common:19.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8910ee0906d86511aab12aa992246233\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+407            android:authorities="com.pos.salon.firebaseinitprovider"
+407-->[com.google.firebase:firebase-common:19.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8910ee0906d86511aab12aa992246233\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+408            android:exported="false"
+408-->[com.google.firebase:firebase-common:19.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8910ee0906d86511aab12aa992246233\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+409            android:initOrder="100" />
+409-->[com.google.firebase:firebase-common:19.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8910ee0906d86511aab12aa992246233\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+410
+411        <meta-data
+411-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\00bf5418288331965e2b33bcb6ac9d3d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+412            android:name="com.google.android.gms.version"
+412-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\00bf5418288331965e2b33bcb6ac9d3d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+413            android:value="@integer/google_play_services_version" />
+413-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\00bf5418288331965e2b33bcb6ac9d3d\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+414
+415        <provider
+415-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-2\files-2.1\773982ab91574fdf7c8887251b2b9cbd\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+416            android:name="com.squareup.picasso.PicassoProvider"
+416-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-2\files-2.1\773982ab91574fdf7c8887251b2b9cbd\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+417            android:authorities="com.pos.salon.com.squareup.picasso"
+417-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-2\files-2.1\773982ab91574fdf7c8887251b2b9cbd\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+418            android:exported="false" />
+418-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-2\files-2.1\773982ab91574fdf7c8887251b2b9cbd\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+419
+420        <service
+420-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\26599ced8c99598615c9fc3b0f966887\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+421            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+421-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\26599ced8c99598615c9fc3b0f966887\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+422            android:exported="false" >
+422-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\26599ced8c99598615c9fc3b0f966887\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+423            <meta-data
+423-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\26599ced8c99598615c9fc3b0f966887\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+424                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+424-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\26599ced8c99598615c9fc3b0f966887\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+425                android:value="cct" />
+425-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\26599ced8c99598615c9fc3b0f966887\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+426        </service>
+427        <service
+427-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+428            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+428-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+429            android:exported="false"
+429-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+430            android:permission="android.permission.BIND_JOB_SERVICE" >
+430-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+431        </service>
+432
+433        <receiver
+433-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+434            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+434-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+435            android:exported="false" />
+435-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c4ce87ca716606bbb135313dd17b449b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+436    </application>
+437
+438</manifest>

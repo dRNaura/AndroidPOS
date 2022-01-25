@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/rlCardPay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/layout_margin_top_spinner"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="@color/btnColor"
+        android:padding="@dimen/layout_padding">
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txtCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Card Pay"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size"
+            app:fontFamily="@string/opensansregular" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rlCashPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/layout_margin_top_spinner"
+        android:background="@color/payBtn"
+        android:gravity="center"
+        android:padding="@dimen/layout_padding">
+
+
+        <com.pos.salon.customview.CustomTextViewOpenSans
+            android:id="@+id/txtCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cash Pay"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size"
+            app:fontFamily="@string/opensansregular" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:background="#F0E9E5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Search Customer by Name"
+            android:textColor="@color/menuTxtColor"
+            android:textSize="16dp" />
+
+        <com.pos.salon.customview.DelayAutoCompleteTextView
+            android:id="@+id/ac_searchcustomer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_customer_search_height"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="5dp"
+            android:hint="@string/searchCustomerHint"
+            android:inputType="textCapSentences"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/menuTxtColor"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

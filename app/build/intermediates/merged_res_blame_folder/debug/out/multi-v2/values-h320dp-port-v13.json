@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\783b863fa0dd558ab582bb6e8286c996\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

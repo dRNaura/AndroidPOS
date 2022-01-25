@@ -1,0 +1,246 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/barColor"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ToolBarStyle">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/scan_hint"
+            android:visibility="gone"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_codeid"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/black" />
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/main_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Scan Result...."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </ScrollView>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_Count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/idcard_count"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_all_count"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_null"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/idcard_count_success"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_success_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_null"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/clean_bu"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Clear"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/start_bu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btnColor"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Single Scan"
+                android:textColor="@color/white"
+                android:onClick="onClick"
+                android:textSize="@dimen/btn_text_size"
+                app:fontFamily="@string/opensansregular" />
+
+            <Button
+                android:id="@+id/start_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/payBtn"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="12dp"
+                android:text="Continous Scan"
+                android:textColor="@color/white"
+                android:onClick="onClick"
+                android:textSize="@dimen/btn_text_size"
+                app:fontFamily="@string/opensansregular" />
+
+            <Button
+                android:id="@+id/stop_scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/payBtn"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="12dp"
+                android:text="Add To Cart"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:onClick="onClick"
+                android:textSize="@dimen/btn_text_size"
+                app:fontFamily="@string/opensansregular" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/open_bu3"
+                    android:layout_width="250dip"
+                    android:layout_height="90dip"
+                    android:onClick="onClick"
+                    android:text="Connect"
+                    android:visibility="gone"
+                    android:textSize="30dp" />
+
+
+
+                <Button
+                    android:id="@+id/stop_bu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:onClick="onClick"
+                    android:text="Stop"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/close_bu4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:text="DIscopnnect"
+                    android:visibility="gone"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:onClick="onClick"
+                    android:text="Continous"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/stop_continue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:text="Stop"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</FrameLayout>

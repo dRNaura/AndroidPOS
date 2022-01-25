@@ -1,0 +1,1894 @@
+[
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_profits.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\profits.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_search.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\search.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\user_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bluetooth_print2.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_bluetooth_print2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_pos_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\list_pos_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_background_radius.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\blue_background_radius.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mail.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\mail.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_pos_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\list_pos_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_filter_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_filter_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cart_iocn.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\cart_iocn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_detail_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_detail_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_event_time_user_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\event_time_user_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cash_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\cash_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outofstock.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\outofstock.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_perform_action_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\perform_action_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_black_24dp.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\ic_add_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cart_iocn.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\cart_iocn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_stroke_color.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\background_stroke_color.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_delete.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\delete.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_edit_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_edit_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\anim_enter.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\anim\\enter.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cash.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\cash.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_demo_app_screen.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_demo_app_screen.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_img_insert.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\img_insert.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan_repair.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_scan_repair.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_creditcard.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\creditcard.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\add_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_list_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\selector_list_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_activity.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_creditcard_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\creditcard_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchase_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_purchase_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_print_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\spinner_print_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_purchase.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_add_purchase.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_sucusess.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\sucusess.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_gallery_images.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_gallery_images.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_find_invoice.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_find_invoice.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_repair_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\repair_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cash_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\cash_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact_sales_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\contact_sales_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_quotation_pos__deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\quotation_pos__deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchases_section.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_purchases_section.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_add_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\add_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_layout.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_close_register.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_close_register.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_calendar1.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-mdpi\\calendar1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_brands.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_brands.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_uncheck_box.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\uncheck_box.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_smartphone.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\smartphone.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo_yellow_big.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\logo_yellow_big.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_brand_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\brand_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cash_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\cash_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_calender_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_calender_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_searchcustomer.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\dialog_searchcustomer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_minus_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\minus_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\add_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checkbox_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\checkbox_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_bluetooth_devices_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\bluetooth_devices_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_square_layout_stroke_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\square_layout_stroke_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\content_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sucusess.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\sucusess.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\notification_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_quatation_menu.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\quatation_menu.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discover.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\discover.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_password.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\password.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_update_shipping_order.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\update_shipping_order.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_options_select_discount.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\options_select_discount.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_return_sale_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\return_sale_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_list_pos_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\list_pos_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_brand_item_types_row.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\brand_item_types_row.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_stroke_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\spinner_stroke_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_filter_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_filter_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_confirmation_activity.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\confirmation_activity.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_delete.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_selected_product_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\selected_product_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_brand_filter_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\brand_filter_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_fragment_booking_edit.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout-sw720dp\\fragment_booking_edit.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_scan_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\layout_scan_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_location.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_thermal_printer.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_thermal_printer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_delete_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\delete_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_tag_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\add_tag_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_search.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchase_product_payment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_purchase_product_payment.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_return_sale.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_return_sale.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_search_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\search_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_add_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\add_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_sub_sub_category_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\sub_sub_category_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_varible_product_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\varible_product_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_category_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\category_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_creditcard_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\creditcard_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_forward.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\forward.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_bluetooth_devices.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\bluetooth_devices.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_list_customer_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\list_customer_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_add_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\add_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cart_iocn.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\cart_iocn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_booking_edit.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_booking_edit.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_customer_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\customer_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_pos_return_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\pos_return_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_search_black.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\search_black.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_quotation_pos__deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\quotation_pos__deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_update_order_tax.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\update_order_tax.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_category_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_category_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\et_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_pos_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\list_pos_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_scan_activity.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\scan_activity.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_print_from_dilaog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\print_from_dilaog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_bg.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\bg.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mail.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\mail.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_cate_search_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\cate_search_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_return_product_detail_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\return_product_detail_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_repair_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_repair_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_purchase_product_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\purchase_product_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo_yellow_big_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\logo_yellow_big_menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cross.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\cross.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_today_profit.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_today_profit.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_minus_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\minus_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_search_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\service_search_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\add_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_detail_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\card_detail_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_currency.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\currency.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cash_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\cash_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_search.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_add_product.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\background_add_product.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\list_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mail.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\mail.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mobile_tab.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\mobile_tab.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_inactiveadd_product.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\inactiveadd_product.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_card_logo.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\card_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_password.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\password.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_status_change_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_status_change_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_password.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\password.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cash_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\cash_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_search.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_return_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\return_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_cart_page_layout.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\cart_page_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_credit_card.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\credit_card.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\round_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bookin_date_time.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_bookin_date_time.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_product_add_calculation_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout-sw720dp\\product_add_calculation_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_manage_user_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\manage_user_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_minus_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\minus_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_img_tap.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\img_tap.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visa.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\visa.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_filter_img.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\filter_img.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_demo.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_print_demo.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_drop_down2.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\drop_down2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_closebutton_back.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\closebutton_back.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_creditcard.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\creditcard.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_yellow_big_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\logo_yellow_big_menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_cart_iocn.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\cart_iocn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_return_menu_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\return_menu_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_category_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\category_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_sale_product_detail_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\sale_product_detail_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_payment_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\add_payment_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_purchases_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\purchases_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_add_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\add_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_creditcard.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\creditcard.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_pos_return_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\pos_return_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_card_logo.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\card_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_check_copy.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\check_copy.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo_yellow_big.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\logo_yellow_big.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_progress.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\item_progress.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_img_return_exists.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\img_return_exists.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_add_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\add_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_multiple_events_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\multiple_events_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_options.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_payment_options.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo_yellow_big_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\logo_yellow_big_menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pos_return_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\pos_return_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo_yellow_big_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\logo_yellow_big_menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_close_register.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\close_register.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_time_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_time_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_list_pos_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\list_pos_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logout.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\logout.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_list_pos_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\list_pos_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_booking_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\menu_booking_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_row_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\list_row_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_posterminal_dropdown.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_posterminal_dropdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_card_logo.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\card_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_otp_verification.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\dialog_otp_verification.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_register_by.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\register_by.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\list_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_quatation_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_quatation_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cash.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\cash.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_repair_part_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\add_repair_part_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sucusess.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\sucusess.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_repair_section.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_repair_section.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_repair_parts_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\repair_parts_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pos_sale_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\pos_sale_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cross.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\cross.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pos_sale_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\pos_sale_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_search_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\search_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sorry.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\sorry.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_creditcard.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\creditcard.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_sub_category_filter_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\sub_category_filter_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_variation_value.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_variation_value.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_minus_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\minus_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_cart_page_layout.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout-sw720dp\\cart_page_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_list_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\list_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_list_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\list_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\spinner_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_email_black.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\email_black.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_add.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\add.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_payment_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\payment_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_purchase_product_search_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\purchase_product_search_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\list_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_capture.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_quatation_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\quatation_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_back.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\circle_back.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_custmer_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\custmer_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_brands_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\brands_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sale_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_sale_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_user_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\user_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_editext.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\background_editext.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_add_black.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\add_black.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_home_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\home_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_products_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\products_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_pos_sale_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\pos_sale_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_supplier_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\supplier_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_return_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_return_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_partial_customer_products.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_partial_customer_products.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_list_pos_fragmnet.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_list_pos_fragmnet.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_quotation_pos__deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\quotation_pos__deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customer.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\customer.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_password.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\password.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_section.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_product_section.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_printicon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\printicon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_home_yellow.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\home_yellow.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_modifierset.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\dialog_modifierset.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_product_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\menu_product_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_booking_category.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_booking_category.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_manage.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_user_manage.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cash_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\cash_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sorry.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\sorry.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_card_logo.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\card_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_purchase_product_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\add_purchase_product_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_salon.jpg.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\salon.jpg"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_purchase_menu_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\purchase_menu_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo_yellow_big_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\logo_yellow_big_menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_brands_dialog_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\add_brands_dialog_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_edit.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\edit.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_user_manage.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_add_user_manage.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_add_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\add_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\add_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_activity.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\splash_activity.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_printer_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\spinner_printer_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_amex.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\amex.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_purchase_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\purchase_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_minus_black.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\minus_black.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_dollar.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\dollar.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_repair.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_create_repair.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo_yellow_big.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\logo_yellow_big.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_menu256.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\menu256.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_partialproducts.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\custom_partialproducts.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_dollar_note.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\dollar_note.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_date_range.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\date_range.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_booking_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_booking_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_repair_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\menu_repair_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_filter.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\filter.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_square_layout_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\square_layout_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_payment_lines_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\payment_lines_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\bg.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_list_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\new_list_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cart_iocn.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\cart_iocn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_infinitylogo.PNG.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\infinitylogo.PNG"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pay_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\pay_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_location_spinner_row.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\location_spinner_row.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_category_filter_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\category_filter_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_search.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_search.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_product_search.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_layout_active_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\round_layout_active_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rightarrow.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\rightarrow.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pos_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\pos_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bg.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\bg.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_false.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_payment_false.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresh.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\refresh.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_barcode.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\barcode.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_add_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_add_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_supplier_detail_page.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_supplier_detail_page.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_pos_sale_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\pos_sale_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_selected_product_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout-sw720dp\\selected_product_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sorry.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\sorry.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logout.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\logout.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_booking_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_booking_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_activity_posterminal_item_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout-sw720dp\\activity_posterminal_item_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_cash.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\cash.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_delete_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_delete_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_list_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\list_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\add_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_delivery_order_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\delivery_order_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_checked_box.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\checked_box.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ladmark.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\ladmark.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_supplier_section.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_supplier_section.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_detail_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_user_detail_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mail.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\mail.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_return_sale_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\return_sale_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_tableslist_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\tableslist_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mobile.jpg.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\mobile.jpg"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_filters_black.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\filters_black.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\anim_left_to_right.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\anim\\left_to_right.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_supplier_view.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\supplier_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sorry.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\sorry.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_supplier_add.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_supplier_add.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_repair_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_repair_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_creditcard_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\creditcard_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cash_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\cash_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_add_user_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\add_user_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_layout_bg.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\round_layout_bg.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_cash_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\cash_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_minus_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\minus_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_supplier_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\supplier_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_check_box_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\check_box_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\bg.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_get_tags.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\get_tags.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_suspend_sale_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\suspend_sale_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_sub_category_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\sub_category_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_popup_close.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\popup_close.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_delete.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\delete.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_list_pos_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\list_pos_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_shipping_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_shipping_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_name.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\name.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_background_corner.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\green_background_corner.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_backward.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\backward.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_business_name.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\business_name.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cross.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\cross.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_new_draft.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\new_draft.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_addcustomer.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_addcustomer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_search_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\search_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_draft_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\draft_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logout.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addbutton_back.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\addbutton_back.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_debit_card.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\debit_card.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scanner.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pos_return_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\pos_return_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_repair_new.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\repair_new.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\listview.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_return_sale_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_return_sale_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_dropdown_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_detail_variation_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\detail_variation_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_dates_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\dates_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_menu.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\menu.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_cross_red_image.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxxhdpi\\cross_red_image.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_discount_update.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\discount_update.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_creditcard_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\creditcard_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pos_sale_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\pos_sale_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sucusess.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\sucusess.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_sorry.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\sorry.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_repair_sales.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_repair_sales.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_list_draft.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_list_draft.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_posterminal_item_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_posterminal_item_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_service_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_service_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_add_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\add_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_quotation_pos__deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\quotation_pos__deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_user_img.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\user_img.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_search_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\customer_search_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cash.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\cash.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_search_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\search_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_variation_value_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\variation_value_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_product.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrowdown.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\arrowdown.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_add_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_add_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_printer_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\select_printer_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lispos_stroke.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\lispos_stroke.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_supplier_detail_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\supplier_detail_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_location_filter_row.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\location_filter_row.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_delivery_order_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\delivery_order_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_open_register_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\open_register_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_x_mark.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\x_mark.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\menu_card_search_menu.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\menu\\card_search_menu.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cross.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\cross.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_calendar.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\calendar.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_creditcard.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\creditcard.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_return_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\return_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\add_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_delete.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\delete.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_filter_list_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\search_filter_list_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_password.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\password.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_sub_sub_category_filter_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\sub_sub_category_filter_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_edit_category.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\add_edit_category.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_pos_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\list_pos_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_sub_sub_cat_filter_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\sub_sub_cat_filter_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_add_calculation_item.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_add_calculation_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pos_return_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\pos_return_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_activity_payment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout-sw720dp\\activity_payment.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tables.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\tables.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_notification_bell.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xxhdpi\\notification_bell.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_variations.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\custom_variations.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_dollar_note_white.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\dollar_note_white.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo_yellow_big.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\logo_yellow_big.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_img_swipe.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\img_swipe.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stock_transfer_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_stock_transfer_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customer_list_fragmnet.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_customer_list_fragmnet.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_edit.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\edit.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_stock_transfer.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_add_stock_transfer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_posterminal_search.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_posterminal_search.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drawer_item_color.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\drawer_item_color.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_background.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_master.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\master.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\anim\\exit.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_card_logo.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\card_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_edit_pop.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\edit_pop.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_stock_transfer_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\stock_transfer_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\add_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_booking.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\booking.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\add_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emptycart.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\emptycart.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_salon_img.jpg.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\salon_img.jpg"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_clock_img.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\clock_img.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customer_view_detail.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_customer_view_detail.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_search_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_product_search_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_dilaog_products_add.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\dilaog_products_add.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_sale_notification_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\new_sale_notification_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_find.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\mipmap-xhdpi\\find.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\search_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep.ogg.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_dark_color.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable\\background_dark_color.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_booking_section.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\fragment_booking_section.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sucusess.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\sucusess.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_quotation_pos__deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\quotation_pos__deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_creditcard_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\creditcard_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_search_icon.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxhdpi\\search_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchases_list.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\activity_purchases_list.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_cash_active.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\cash_active.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_item_row.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\product_item_row.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mail.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xxxhdpi\\mail.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_yellow_big.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\logo_yellow_big.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add_customer_deactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-hdpi\\add_customer_deactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_modifierset.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\custom_modifierset.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cash.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\cash.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_booking_date_time_dialog.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\booking_date_time_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\layout_proudct_search_items.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\layout\\proudct_search_items.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_delete.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\delete.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_close.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\close.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cash_inactive.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-xhdpi\\cash_inactive.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\anim_right_to_left.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\anim\\right_to_left.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_search.png.flat",
+        "source": "G:\\AndroidStudioProjects\\JamesProject\\ShopPlus-Pos\\ShopPlusSalon_DEV\\ShopPlusSalon\\app\\src\\main\\res\\drawable-mdpi\\search.png"
+    }
+]

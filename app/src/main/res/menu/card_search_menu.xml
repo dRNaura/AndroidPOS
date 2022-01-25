@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/insert_card"
+        android:icon="@drawable/img_insert"
+        android:title="Insert Card" />
+
+<!--    <item-->
+<!--        android:id="@+id/tap_card"-->
+<!--        android:icon="@drawable/img_tap"-->
+<!--        android:title="Tap Card"/>-->
+    <item
+        android:id="@+id/swipe_card"
+        android:icon="@drawable/img_swipe"
+        android:title="Swipe Card"/>
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/ll_variation"
+        android:background="@color/btnColor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_variationname"
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="left"
+            android:paddingRight="10dp"
+
+            android:paddingBottom="10dp"
+            android:text="White Rice"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+<CheckBox
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.1"
+    android:buttonTint="@color/payBtn"
+    android:layout_marginRight="15dp"
+    android:id="@+id/cb_variation"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

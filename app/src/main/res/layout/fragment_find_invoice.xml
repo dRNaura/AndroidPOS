@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:clickable="true"
+    android:id="@+id/lay_findInvoice"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imgNotFount"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_centerInParent="true"-->
+            <!--                android:src="@drawable/search" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_searchInvoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/et_bg"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/search_icon"
+                    android:drawablePadding="8dp"
+                    android:hint="ENTER INVOICE NO."
+                    android:inputType="number"
+                    android:layout_margin="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/menuTxtColor"
+                    android:textSize="18dp" />
+
+                <RelativeLayout
+                    android:id="@+id/lay_search_invoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/btnColor"
+                    android:padding="@dimen/layout_padding">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:id="@+id/txt_search"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VIEW DETAIL"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/btn_text_size"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/txtNext"
+                            android:src="@drawable/next" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="5"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:background="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:text="OR"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:background="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:elevation="4dp">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imgNotFount"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_centerInParent="true"-->
+            <!--                android:src="@drawable/search" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/lay_scan_invoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/payBtn"
+                    android:padding="@dimen/layout_padding">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SCAN "
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/btn_text_size"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/txtNext"
+                            android:src="@drawable/next" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

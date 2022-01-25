@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/barColor"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/et_bg">
+
+                    <Spinner
+                        android:id="@+id/dropDownCustomer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dropDownVerticalOffset="40dp"
+                        android:spinnerMode="dropdown">
+
+                    </Spinner>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/et_bg">
+
+                    <Spinner
+                        android:id="@+id/dropDownCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dropDownVerticalOffset="40dp"
+                        android:spinnerMode="dropdown">
+
+                    </Spinner>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/lay_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:id="@+id/searchEditBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edt_search_height"
+                        android:layout_toLeftOf="@+id/img_clear_search_product"
+                        android:background="@drawable/et_bg"
+                        android:drawableLeft="@drawable/search_icon"
+                        android:drawablePadding="8dp"
+                        android:hint="Search Service"
+                        android:inputType="text"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/menuTxtColor"
+                        android:textColorHint="@color/menuTxtColor"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/img_clear_search_product"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="4dp"
+                        android:src="@drawable/cross"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/reyc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay_search"
+                    android:layout_margin="10dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyler_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/progressBar"
+                        android:paddingBottom="10dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/llAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/searctAlert"
+                            android:textColor="@color/menuTxtColor"
+                            android:textSize="25sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                        <com.pos.salon.customview.CustomTextViewOpenSans
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/searchAlert2"
+                            android:textColor="@color/btnColor"
+                            android:textSize="30sp"
+                            app:fontFamily="@string/opensansregular" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imgNotFount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/search" />
+
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

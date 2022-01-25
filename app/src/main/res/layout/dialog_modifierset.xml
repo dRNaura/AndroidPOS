@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.88"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Modifiers for product: "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGray" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp">
+
+
+
+              <!--  <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_modifiers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>-->
+
+                <ExpandableListView
+                    android:id="@+id/expandableListView"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                   />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_weight="0.12">
+
+            <Button
+                android:id="@+id/btn_addmodifiers"
+                android:layout_width="80dp"
+                android:text="Add"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/addbutton_back"
+                android:layout_height="40dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:text="Close"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textAllCaps="false"
+                android:layout_marginRight="20dp"
+                android:id="@+id/close_dialog"
+                android:background="@drawable/closebutton_back"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

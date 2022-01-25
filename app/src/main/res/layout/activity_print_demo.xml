@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".activity.PrintDemo">
+
+
+    <EditText
+        android:id="@+id/txt_demo"
+        android:layout_width="match_parent"
+        android:text="Print Demo"
+        android:background="@drawable/square_layout_stroke_bg"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="top"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/print_btn"
+        android:layout_width="wrap_content"
+        android:text="Print"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item android:state_checked="true"-->
+<!--&lt;!&ndash;        android:drawable="@mipmap/checkbox_checked" />&ndash;&gt;-->
+<!--    <item android:state_checked="false"-->
+<!--&lt;!&ndash;        android:drawable="@mipmap/checkbox_checked" />&ndash;&gt;-->
+</selector>
